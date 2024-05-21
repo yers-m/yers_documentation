@@ -11,8 +11,8 @@ copyright: Copyright &copy; 2024
 theme:
   name: material
   language: en
-  logo: assets/PharMetrX.png
-  favicon: assets/PharMetrX.png
+  logo: assets/PharMetrX.gif
+  favicon: assets/PharMetrX.gif
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -64,35 +64,6 @@ nav:
   - Workspace:
     - workspace/index.md
     - workspace/infrastructure_workflow.md
-    - workspace/set_up_environment.md
-    - workspace/BIDSification.md
-    - workspace/comperhensive_tools.md
-    - workspace/conversion_tools.md
-    - workspace/containers.md
-    - workspace/BIDS_datasets.md
-    - workspace/BIDS_analysis.md
-    - workspace/visualization.md
-    - workspace/copying_large_data.md
-    - workspace/running_commands_in_background.md
-    - workspace/parallelization.md
-    - workspace/download_large_data.md
-    - workspace/fixing_corrupted_archives.md
-  - iAID: 
-    - iAID/data.md
-    - iAID/BIDSification.md
-  - NeuroG Container: 
-    - NeuroG Container/motivation.md
-    - NeuroG Container/build.md
-    - NeuroG Container/how_to_use.md
-  - Dicom Extractor:
-    - Dicom Extractor/dicom_metadata_extraction_tool.md
-    - Dicom Extractor/Usage.md
-  - Dicom Reorganizer:
-    - Dicom Reorganizer/index.md
-    - Dicom Reorganizer/python_package.md
-  - Orthanc Server:
-    - Orthanc Server/build.md
-    - Orthanc Server/usage.md
   # - Blog:
   #     - blog/index.md
 
