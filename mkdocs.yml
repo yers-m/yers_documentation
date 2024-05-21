@@ -3,7 +3,7 @@ site_name: Yersultan's Documentation
 site_url: https://yers-m.github.io/documentation/
 site_description: Central Documentation of my project as RA in NG group, KI.
 site_author: "Yersultan Mirasbekov"
-repo_url: https://github.com/NeuroGranberg/documentation
+repo_url: https://github.com/yers-m/documentation
 repo_name: documentation
 edit_uri: edit/main/docs/
 copyright: Copyright &copy; 2024
@@ -99,7 +99,7 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/NeuroGranberg/Nima_Documentation
+      link: https://github.com/yers-m/documentation
       name: Documentation
 
 plugins:
