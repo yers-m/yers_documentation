@@ -20,6 +20,7 @@
 * Genetic background 
 
 ![](./screenshots/CAH_mutations.png)
+
 Figure from [[2003_Speiser]](https://doi.org/10.1210/jc.2018-01865)
 
 ---
