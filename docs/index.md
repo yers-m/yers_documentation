@@ -26,4 +26,4 @@ This documentation serves multiple purposes:
 
 ## Who can use this?
 
-Whether you're a fellow researcher, a new team member, or just curious about the technical intricacies of advanced medical imaging, this documentation is designed to provide you with a clear understanding of my work. Dive into the sections that interest you, and feel free to reach out if you have questions or would like to discuss. You can find me on my [KI](https://ki.se/personer/nima-chamyani) or [LinkdIn](https://www.linkedin.com/in/nima-chamyani) pages.
+Whether you're a fellow researcher, a new team member, or just curious about the technical intricacies of advanced medical imaging, this documentation is designed to provide you with a clear understanding of my work. Dive into the sections that interest you, and feel free to reach out if you have questions or would like to discuss. You can find me on my [FU Berlin](https://www.bcp.fu-berlin.de/pharmazie/faecher/klinische_pharmazie/arbeitsgruppe_kloft/mitarbeiter/Doktoranden_innen/Yersultan_Mirasbekov) or [LinkdIn](https://www.linkedin.com/in/yersultan-m/) pages.
