@@ -19,7 +19,7 @@
 
 * Genetic background 
 
-<center><img src='./screenshots/CAH_mutations.png' height=500></center>
+<center><img src='Literature/screenshots/CAH_mutations.png' height=500></center>
 
 Figure from [[Speiser 2003]](https://doi.org/10.1210%2Fjc.2018-01865)
 
