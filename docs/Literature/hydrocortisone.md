@@ -47,7 +47,7 @@
         - 27.1 ± 8.4 L prepubertal 
         - 49.5 ± 12.2 L pubertal
         - 40.8 ± 16.0 L prepubertal
-            - [[]](../articles/2001a_Charmandari.pdf)
+            - [[2001a_Charmandari]](https://doi.org/10.1210/jcem.86.6.7522)
     + $V_{ss}$
         - increasing with increasing doses [[1981_Toothaker]](https://doi.org/10.1007/bf01062332)
         - 5 mg: 20.7 ± 7.3 L
