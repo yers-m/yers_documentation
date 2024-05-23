@@ -4,14 +4,14 @@
 * minimising the -2LL
 * lower OFV indicates a better fit
 * likelihood ratio test [[2014_Owen]](https://doi.org/10.1038%2Fpsp.2014.51)
-  * for nested models (complex models which can be collapsed to the simpler one)
-  * $χ^2$ distribution
-  * null hypothesis: no difference between models
-  * hypothesis: difference between models
-  * significance level (α) of 0.01: 
-    * OFV of 6.63 (degrees of freedom=1 or an increase of 1 parameter)
-    * OFV of 9.21 (degrees of freedom=2 or an increase of 2 parameters)
-    * etc.
+    * for nested models (complex models which can be collapsed to the simpler one)
+    * $χ^2$ distribution
+    * null hypothesis: no difference between models
+    * hypothesis: difference between models
+    * significance level (α) of 0.01: 
+      * OFV of 6.63 (degrees of freedom=1 or an increase of 1 parameter)
+      * OFV of 9.21 (degrees of freedom=2 or an increase of 2 parameters)
+      * etc.
 
 | Degrees of Freedom | 0.05   | 0.01   | 0.001  |
 |--------------------|--------|--------|--------|
@@ -29,8 +29,8 @@
 
 ### Akaike Information Criterion - <kbd>**AIC**</kbd>
 * [[2006_Bonate]](https://doi.org/10.1007/b138744)
-  * not nested 
-  * lower AIC indicates the better fit 
+    * not nested 
+    * lower AIC indicates the better fit 
 
 $$AIC=OFV+2 \cdot p$$
 
@@ -42,37 +42,37 @@ $$AIC=OFV+2 \cdot p$$
 * comparison of the predicted versus the observed concentrations
 * observations should be scattered evenly around the line of identity
 * **CWRES** (conditional weighted residuals)
-  * adjusted based on the FOCE approximation [[2007_Hooker]](https://doi.org/10.1007/s11095-007-9361-x)
-  * should be [[2013_Mould]](https://doi.org/10.1038/psp.2013.14)
-    * close to zero (± 2 SD)
-    * randomly scattered around zero
+    * adjusted based on the FOCE approximation [[2007_Hooker]](https://doi.org/10.1007/s11095-007-9361-x)
+    * should be [[2013_Mould]](https://doi.org/10.1038/psp.2013.14)
+      * close to zero (± 2 SD)
+      * randomly scattered around zero
 * CWRES vs. population predictions
-  * identification of concentration-dependencies
-  * to assess appropriateness of the RUV model
+    * identification of concentration-dependencies
+    * to assess appropriateness of the RUV model
 * CWRES vs. time
-  * identification of time-dependencies
-  * specification appears in the absorption or the elimination phase.
+    * identification of time-dependencies
+    * specification appears in the absorption or the elimination phase.
 * **VPC** (visual predictive checks)
 * simulation-based graphical evaluation
 * to evaluate predictive performance of a model
 * the ability of a model to reproduce the observed data
 * procedure [[2011_Bergstrand]](https://doi.org/10.1208%2Fs12248-011-9255-z)
-  * The percentiles of interest (commonly 5th,50th and 95th)
-  * the confidence interval of respective percentiles for the simulated concentrations
-  * compared graphically with the same percentiles of the observed concentrations
-  * derived for selected time ranges (bins) 
-  * not at every time to ease the comparison
+    * The percentiles of interest (commonly 5th,50th and 95th)
+    * the confidence interval of respective percentiles for the simulated concentrations
+    * compared graphically with the same percentiles of the observed concentrations
+    * derived for selected time ranges (bins) 
+    * not at every time to ease the comparison
 * percentiles of the simulated and observed data are compared graphically [[2008_Holford]](https://www.page-meeting.org/?abstract=1434)
 * Categorical VPC is a useful tool to evaluate performance for categorical data [[2009_Bergstrand]](https://doi.org/10.1208/s12248-009-9112-5)
 
 ## Evaluation of uncertainty in parameter estimates
 * variance-covariance matrix 
-  * generated in NONMEM
-  * standard errors of the parameter estimates 
-    *  the square root of the diagonal elements in variance-covariance matrix
+    * generated in NONMEM
+    * standard errors of the parameter estimates 
+      *  the square root of the diagonal elements in variance-covariance matrix
 * **%RSE** relative standard error
-  * to evaluate parameter precision for fixed-effects
-  * <30% are acceptable [[2014_Owen]](https://doi.org/10.1038%2Fpsp.2014.51)
+    * to evaluate parameter precision for fixed-effects
+    * <30% are acceptable [[2014_Owen]](https://doi.org/10.1038%2Fpsp.2014.51)
 
 $$RSE(\theta) = 100 \cdot \frac{SE(\theta)}{\theta}$$
 
@@ -80,7 +80,7 @@ $$RSE(\theta) = 100 \cdot \frac{SE(\theta)}{\theta}$$
 > $SE(θ)$ standard error of the population parameter.
 > 
 * **%RSE** <u>for random-effects parameters</u>
-  * 40-50% is acceptable [[2014_Owen]](https://doi.org/10.1038%2Fpsp.2014.51)
+    * 40-50% is acceptable [[2014_Owen]](https://doi.org/10.1038%2Fpsp.2014.51)
 
 $$RSE(\omega^2) = 100 \cdot \frac{SE(\omega^2)}{2 \cdot \omega^2}$$
 
@@ -88,24 +88,24 @@ $$RSE(\omega^2) = 100 \cdot \frac{SE(\omega^2)}{2 \cdot \omega^2}$$
 > $SE(\omega^2)$ standard error of final variance.
 
 * Bootstrap method [[2005_Lindbom]](https://doi.org/10.1016/j.cmpb.2005.04.005)
-  * generated from the original dataset
-  * sampling individuals with replacement
-  * new parameter estimates are generated 
-  * derived confidence interval (e.g. 95% CI)
-  * $>200$ datasets may be needed to generate the standard errors
-  * can be generated using PsN software
+    * generated from the original dataset
+    * sampling individuals with replacement
+    * new parameter estimates are generated 
+    * derived confidence interval (e.g. 95% CI)
+    * $>200$ datasets may be needed to generate the standard errors
+    * can be generated using PsN software
 
 * Log-Likelihood profiling
-  * to assess if the OFV from the final model refers to the global minimum
-  * surface of the likelihood between the full and reduced model
-    * re-estimation by fixing the respective parameter to a slightly different estimate (e.g. ±5% or ±20%) 
-    * until the selected significant difference in likelihood (e.g. ΔOFV: 3.84, df=1, α=0.05) is achieved
-    * the lower and upper boarder of the 95% confidence interval for the parameter has been reached [[2014_Owen]](https://doi.org/10.1038%2Fpsp.2014.51) [[2018_PsN_LLP]](https://uupharmacometrics.github.io/PsN/docs.html)
+    * to assess if the OFV from the final model refers to the global minimum
+    * surface of the likelihood between the full and reduced model
+      * re-estimation by fixing the respective parameter to a slightly different estimate (e.g. ±5% or ±20%) 
+      * until the selected significant difference in likelihood (e.g. ΔOFV: 3.84, df=1, α=0.05) is achieved
+      * the lower and upper boarder of the 95% confidence interval for the parameter has been reached [[2014_Owen]](https://doi.org/10.1038%2Fpsp.2014.51) [[2018_PsN_LLP]](https://uupharmacometrics.github.io/PsN/docs.html)
 
-## Identification of Influential Individuals
+### Influential Individuals
 * may have a large impact on 
-  * model selection
-  * parameter estimates
+    * model selection
+    * parameter estimates
 * Comparison of individual OFV in the NONMEM output
 * Case-deletion diagnostics
   * new datasets where one individual has been removed
@@ -114,15 +114,15 @@ $$RSE(\omega^2) = 100 \cdot \frac{SE(\omega^2)}{2 \cdot \omega^2}$$
 
 ## Simulations
 * Deterministic
-  * do not consider the random-effects parameters of the model
-  * generating the typical concentration-time profile for a given set of covariates
-  * useful to visualise and assess which impact changes in dose will have on e.g. exposure
+    * do not consider the random-effects parameters of the model
+    * generating the typical concentration-time profile for a given set of covariates
+    * useful to visualise and assess which impact changes in dose will have on e.g. exposure
 * Stochastic
-  * consider the random-effects parameters
-  * used when generating VPCs
-  * require appropriate precision of all parameters
-  * to guide dose selection 
-  * to compare different dosing scenarios
+    * consider the random-effects parameters
+    * used when generating VPCs
+    * require appropriate precision of all parameters
+    * to guide dose selection 
+    * to compare different dosing scenarios
 
 ---
 
