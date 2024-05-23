@@ -2,11 +2,11 @@
 
 ## Introduction
 
-Hello! Welcome to my documentation page for pharmacometrics projects at FU Berlin. This portal is my digital notebook, capturing my work, its challenges, and possible solutions.
+Hello! My name is Yersultan. Welcome to my documentation page for my PhD projects in pharmacometrics at FU Berlin. This portal is my digital notebook, capturing my work, its challenges, and possible solutions.
 
-## My Role and Mission
+## My Role
 
-My primary role in the team involves ...
+My primary role in the team involves ... (TBA)
 
 ## Documentation Goals
 
@@ -28,4 +28,13 @@ This documentation serves multiple purposes:
 
 ## Who can use this?
 
-Whether you're a fellow researcher, a new team member, or just curious about pharmacometrics, this documentation is designed to provide you with a clear understanding of my work. Dive into the sections that interest you, and feel free to reach out if you have questions or would like to discuss. You can find me on [FU Berlin](https://www.bcp.fu-berlin.de/pharmazie/faecher/klinische_pharmazie/arbeitsgruppe_kloft/mitarbeiter/Doktoranden_innen/Yersultan_Mirasbekov) or [LinkdIn](https://www.linkedin.com/in/yersultan-m/) webpages.
+Whether you're a fellow researcher, a new team member, or just curious about pharmacometrics, this documentation is designed to provide you with a clear understanding of my work. Dive into the sections that interest you
+
+Feel free to reach out if you have questions or would like to discuss. You can find me here 
+- [FU Berlin](https://www.bcp.fu-berlin.de/pharmazie/faecher/klinische_pharmazie/arbeitsgruppe_kloft/mitarbeiter/Doktoranden_innen/Yersultan_Mirasbekov) 
+- [LinkdIn profile](https://www.linkedin.com/in/yersultan-m/)
+- [Email address](mailto:yersultan.mirasbekov@fu-berlin.de)
+
+## Acknowledgments 
+
+This website was adapted from the work of Nima Chamyani and [his documentation](https://github.com/NeuroGranberg/Nima_Documentation). 

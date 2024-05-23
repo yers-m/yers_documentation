@@ -7,13 +7,13 @@
    * IUPAC name: 11β,17α,21-Trihydroxypregn-4-ene-3,20-dione
    * Molecule Type: Small molecule
 
-![](./screenshots/cortisol_chembl.png)
+![Chemical Structure of Cortisol](./screenshots/cortisol_chembl.png)
 
-Figure from [ChEMBL](https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL389621/)
+*Chemical Structure of Cortisol. Figure from [ChEMBL](https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL389621/).*
 
-![](./figures/py3Dmol_cortisol.png)
+![Cortisol structure created in Python by the py3Dmol tool](./figures/py3Dmol_cortisol.png)
 
-Cortisol structure was created in python by py3Dmol tool 
+*Cortisol structure was created in Python by the py3Dmol tool.*
 
 * a negative feedback on CRH and ACTH release, thereby inhibiting the HPA axis [[2002_Tsigos]](https://doi.org/10.1016/s0022-3999(02)00429-4)
 * saturable plasma protein binding of cortisol occurring at high cortisol concentrations [[1981_Toothaker]](https://doi.org/10.1007/bf01062332)
@@ -47,9 +47,9 @@ Cortisol structure was created in python by py3Dmol tool
 * lower in neonates, whereas infants had reached adult values
 * 3D structure [[2007_Klieber]](https://doi.org/10.1074/jbc.m705014200)
 
-![](./figures/py3Dmol_CBG.png)
+![CBG Structure created by py3Dmol tool](./figures/py3Dmol_CBG.png)
 
-CBG Structure was created by py3Dmol tool
+*CBG Structure was created by the py3Dmol tool.*
 
 ---
 
@@ -58,9 +58,9 @@ CBG Structure was created by py3Dmol tool
 * conc. range of 12-36 nmol/L -> target for therapy [[2005_Merke]](https://doi.org/10.1016/s0140-6736(05)66736-0)
     + note: when measured in the early morning before medication
 
-![](./figures/py3Dmol_17-OHP.png)
+![17-OHP Structure created by py3Dmol tool](./figures/py3Dmol_17-OHP.png)
 
-17-OHP Structure was created by py3Dmol tool
+*17-OHP Structure was created by the py3Dmol tool.*
 
 ---
 
@@ -78,10 +78,9 @@ CBG Structure was created by py3Dmol tool
 * Steroid synthesis of mineralocorticoids, glucocorticoids and androgens
 * healthy and CAH
 
-![](./screenshots/pathway_healthy.png)
+![Pathway in a Healthy Individual](./screenshots/pathway_healthy.png)
+![Pathway in an Individual with CAH](./screenshots/pathway_CAH.png)
 
-![](./screenshots/pathway_CAH.png)
-
-Figure from [PhD thesis of Johanna Melin](https://refubium.fu-berlin.de/handle/fub188/23620)
+*Steroid synthesis pathway. Figures were adopted from [PhD thesis of Johanna Melin](https://refubium.fu-berlin.de/handle/fub188/23620).*
 
 ---

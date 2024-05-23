@@ -1,9 +1,7 @@
-# Workspace and Techniques
+# Description
 
-This section reflects my perspective on workflow and tools, and it's a living document that will evolve over time. Here, you'll discover:
+This section reflects my approach to conducting a literature review and serves as a living document that will evolve over time. Here, you'll find:
 
-- Insights on Data Infrastructure and Workflow.
-- Guidance for setting up both the backend and frontend of the workspace.
-- Tool-boxes and possible solutions.
-- Tutorials on utilizing the tools, along with other relevant information I come across.
-- Advice on best practices and the unique value of various approaches to similar tasks.
+- Insights, summaries, and key takeaways from various research articles and papers, particularly focusing on congenital adrenal hyperplasia (CAH) and hormonal therapy with hydrocortisone.
+- A repository of valuable information and data extracted from the articles.
+- Tutorials and guides on how to effectively search for, analyze, and organize academic literature in this field.
