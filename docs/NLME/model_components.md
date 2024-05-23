@@ -86,3 +86,4 @@ $$𝜙_{i}=𝜃 + 𝜃_{cov} \cdot (z_{i}-z_{median})$$
 > $z_{median}$ - median value of the covariate.
 
 ---
+

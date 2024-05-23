@@ -125,3 +125,4 @@ $$RSE(\omega^2) = 100 \cdot \frac{SE(\omega^2)}{2 \cdot \omega^2}$$
   * to compare different dosing scenarios
 
 ---
+

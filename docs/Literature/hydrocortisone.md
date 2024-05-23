@@ -1,4 +1,5 @@
 # Hydrocortisone 
+## Introduction
 * synthetic cortisol
 * the relatively short half-life of 1.5 h
 * lack of licensed formulation for this population (for <6yo)
@@ -124,3 +125,4 @@
 * intravenous (iv) bolus 
 * HC administration
 ---
+

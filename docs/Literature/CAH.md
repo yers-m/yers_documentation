@@ -1,5 +1,6 @@
 # Congenital Adrenal Hyperplasia
 
+## Introduction
 * a deficient cortisol synthesis
 * adrenal insufficiency by dysfunction of 
     + **adrenal gland** (primary) 

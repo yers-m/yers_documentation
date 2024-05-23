@@ -44,3 +44,4 @@ $$OFV_{ELS} = \sum_{i=1}^{n} \left[ \frac{(y_i - \hat{y}_i)^2}{\text{var}(y_i)} 
 > **step M** *maximisation* maximises the expected likelihood (from step E) to generate new parameter estimates.
 
 ---
+
