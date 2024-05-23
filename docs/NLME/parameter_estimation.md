@@ -1,5 +1,5 @@
 # Parameter Estimation
-## **OFV** objective function value 
+## Objective Function Value
 * proportional to minus 2 times the log likelihood (-2LL)
 * extended least squares **ELS** objective function [[1980_Sheiner]](https://doi.org/10.1007/bf01060053)
 
@@ -19,7 +19,7 @@ $$OFV_{ELS} = \sum_{i=1}^{n} \left[ \frac{(y_i - \hat{y}_i)^2}{\text{var}(y_i)} 
 * linearised by conditioning on the individual etas [[2014_Owen]](https://doi.org/10.1038%2Fpsp.2014.51) [[2014_Johansson]](https://doi.org/10.1007/s10928-014-9359-z)
 ### FOCE with interaction - <kbd>**FOCEI**</kbd>
 * considering the interaction between ε and η [[2014_Owen]](https://doi.org/10.1038%2Fpsp.2014.51)
-### **LAPLACE** - <kbd>**LAPLACE**</kbd>
+### <kbd>**LAPLACE**</kbd>
 * [[2014_Johansson]](https://doi.org/10.1007/s10928-014-9359-z)
 * second-order approximation
 * only gradient-based estimation method 

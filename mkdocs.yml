@@ -61,16 +61,19 @@ theme:
 # Navigation Structure
 nav:
   - Home: index.md
-  - Literature Review:
+  - Literature Review HCP:
     - Literature/index.md
     - Literature/CAH.md
-    - Literature/components.md
+    - Literature/system_components.md
     - Literature/hydrocortisone.md
-    - Literature/trials.md
+    - Literature/clinical_trials.md
   - NLME:
     - NLME/index.md
-    - NLME/components.md
+    - NLME/model_components.md
     - NLME/parameter_estimation.md
+    - NLME/baseline_models.md
+    - NLME/bllq.md
+    - NLME/evaluation.md
   # - Blog:
   #     - blog/index.md
 
