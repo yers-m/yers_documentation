@@ -38,7 +38,7 @@ $$AIC=OFV+2 \cdot p$$
 * [TBA]
 
 
-------
+---
 
 
 ## Graphical evaluation
