@@ -26,10 +26,10 @@ $$y_{ij}=f(𝜙_{i},  x_{ij})$$
     + variance of $ω^2$
     + the same within an individual unless IOV is applied
     + can be added as:
-      - additive
-      - proportional
-      - <u>exponential</u>
-        - the most common as parameters are usually log-normally distributed and non-negative values
+        - additive
+        - proportional
+        - <u>exponential</u>
+            - the most common as parameters are usually log-normally distributed and non-negative values
 
 $$𝜙_{i}=g(𝜃,  z_{i}) + 𝜂_i$$
 
@@ -61,10 +61,10 @@ $$𝜙_{i}=g(𝜃,  z_{i}) \cdot e^{𝜂_i+k_i}$$
     + normally distributed around 0 
     + variance of $σ^2$
     + can be added as
-      + additive
-        + If estimating parameters using log-transformed data an additive model is commonly applied, since it approximates an exponential or a proportional RUV model on a linear scale
-      + proportional
-      + combined
+        + additive
+            + If estimating parameters using log-transformed data an additive model is commonly applied, since it approximates an exponential or a proportional RUV model on a linear scale
+        + proportional
+        + combined
 
 $$y_{ij}=f(𝜙_{i},  x_{ij}) + ε_{add,ij}$$
 

@@ -1,6 +1,4 @@
 # Baseline models
-
-## Introduction
 * to consider the baseline values observed before and after treatment 
     * e.g. endogenous synthesis of cortisol
     * e.g. endogenous biomarker (17-OHP)

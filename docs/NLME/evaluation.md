@@ -1,17 +1,17 @@
 # Model Selection and Evaluation
 ## Numerical and statistical evaluation 
 ### Objective Function Value - <kbd>**OFV**</kbd>
-- minimising the -2LL
-- lower OFV indicates a better fit
-- likelihood ratio test [[2014_Owen]](https://doi.org/10.1038%2Fpsp.2014.51)
-  - for nested models (complex models which can be collapsed to the simpler one)
-  - $χ^2$ distribution
-  - null hypothesis: no difference between models
-  - hypothesis: difference between models
-  - significance level (α) of 0.01:
-    - OFV of 6.63 (degrees of freedom=1 or an increase of 1 parameter)
-    - OFV of 9.21 (degrees of freedom=2 or an increase of 2 parameters)
-    - etc.
+* minimising the -2LL
+* lower OFV indicates a better fit
+* likelihood ratio test [[2014_Owen]](https://doi.org/10.1038%2Fpsp.2014.51)
+    * for nested models (complex models which can be collapsed to the simpler one)
+    * $χ^2$ distribution
+    * null hypothesis: no difference between models
+    * hypothesis: difference between models
+    * significance level (α) of 0.01: 
+        * OFV of 6.63 (degrees of freedom=1 or an increase of 1 parameter)
+        * OFV of 9.21 (degrees of freedom=2 or an increase of 2 parameters)
+        * etc.
 
 | Degrees of Freedom | 0.05   | 0.01   | 0.001  |
 |--------------------|--------|--------|--------|
@@ -44,8 +44,8 @@ $$AIC=OFV+2 \cdot p$$
 * **CWRES** (conditional weighted residuals)
     * adjusted based on the FOCE approximation [[2007_Hooker]](https://doi.org/10.1007/s11095-007-9361-x)
     * should be [[2013_Mould]](https://doi.org/10.1038/psp.2013.14)
-      * close to zero (± 2 SD)
-      * randomly scattered around zero
+        * close to zero (± 2 SD)
+        * randomly scattered around zero
 * CWRES vs. population predictions
     * identification of concentration-dependencies
     * to assess appropriateness of the RUV model
@@ -69,7 +69,7 @@ $$AIC=OFV+2 \cdot p$$
 * variance-covariance matrix 
     * generated in NONMEM
     * standard errors of the parameter estimates 
-      *  the square root of the diagonal elements in variance-covariance matrix
+        *  the square root of the diagonal elements in variance-covariance matrix
 * **%RSE** relative standard error
     * to evaluate parameter precision for fixed-effects
     * <30% are acceptable [[2014_Owen]](https://doi.org/10.1038%2Fpsp.2014.51)
@@ -78,7 +78,7 @@ $$RSE(\theta) = 100 \cdot \frac{SE(\theta)}{\theta}$$
 
 > $θ$ the final population parameter; <br>
 > $SE(θ)$ standard error of the population parameter.
-> 
+
 * **%RSE** <u>for random-effects parameters</u>
     * 40-50% is acceptable [[2014_Owen]](https://doi.org/10.1038%2Fpsp.2014.51)
 
@@ -98,9 +98,9 @@ $$RSE(\omega^2) = 100 \cdot \frac{SE(\omega^2)}{2 \cdot \omega^2}$$
 * Log-Likelihood profiling
     * to assess if the OFV from the final model refers to the global minimum
     * surface of the likelihood between the full and reduced model
-      * re-estimation by fixing the respective parameter to a slightly different estimate (e.g. ±5% or ±20%) 
-      * until the selected significant difference in likelihood (e.g. ΔOFV: 3.84, df=1, α=0.05) is achieved
-      * the lower and upper boarder of the 95% confidence interval for the parameter has been reached [[2014_Owen]](https://doi.org/10.1038%2Fpsp.2014.51) [[2018_PsN_LLP]](https://uupharmacometrics.github.io/PsN/docs.html)
+        * re-estimation by fixing the respective parameter to a slightly different estimate (e.g. ±5% or ±20%) 
+        * until the selected significant difference in likelihood (e.g. ΔOFV: 3.84, df=1, α=0.05) is achieved
+        * the lower and upper boarder of the 95% confidence interval for the parameter has been reached [[2014_Owen]](https://doi.org/10.1038%2Fpsp.2014.51) [[2018_PsN_LLP]](https://uupharmacometrics.github.io/PsN/docs.html)
 
 ### Influential Individuals
 * may have a large impact on 
@@ -108,9 +108,9 @@ $$RSE(\omega^2) = 100 \cdot \frac{SE(\omega^2)}{2 \cdot \omega^2}$$
     * parameter estimates
 * Comparison of individual OFV in the NONMEM output
 * Case-deletion diagnostics
-  * new datasets where one individual has been removed
-  * influential individual if
-    * a relative change in parameter estimates of ±20% [[2011_Bonate]](https://doi.org/10.1007/b138744)
+    * new datasets where one individual has been removed
+    * influential individual if
+        * a relative change in parameter estimates of ±20% [[2011_Bonate]](https://doi.org/10.1007/b138744)
 
 ## Simulations
 * Deterministic

@@ -2,10 +2,10 @@
 ## Cortisol
 * major glucocorticoid
 *  Chemical properties
-   * $C_{21}H_{30}O_5$
-   * Average mass: 362.460 Da or g/mol [[ChemsSpider]](https://www.chemspider.com/Chemical-Structure.5551.html)
-   * IUPAC name: 11β,17α,21-Trihydroxypregn-4-ene-3,20-dione
-   * Molecule Type: Small molecule
+      * $C_{21}H_{30}O_5$
+      * Average mass: 362.460 Da or g/mol [[ChemsSpider]](https://www.chemspider.com/Chemical-Structure.5551.html)
+      * IUPAC name: 11β,17α,21-Trihydroxypregn-4-ene-3,20-dione
+      * Molecule Type: Small molecule
 
 ![Chemical Structure of Cortisol](./screenshots/cortisol_chembl.png)
 

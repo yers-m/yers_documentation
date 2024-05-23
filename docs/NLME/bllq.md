@@ -1,6 +1,4 @@
 # Handling BLLQ data
-
-## Introduction
 * Below Lower Limit of Quantification
 * not always possible to improve the LLOQ of the bioanalytical assays [[2008_Ahn]](https://doi.org/10.1007/s10928-008-9094-4)
 * ignoring data below LLOQ [[2001_Beal]](https://doi.org/10.1023/a:1012299115260)
