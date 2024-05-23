@@ -35,6 +35,7 @@
 $$AIC=OFV+2 \cdot p$$
 
 ### Bayesian Information Criterion - <kbd>**BIC**</kbd>
+* [TBA]
 
 ## Graphical evaluation
 * Standard **GOF** (goodness of fit) 
