@@ -21,7 +21,7 @@
 
 ## Pharmacokinetics
 ### Absorption
-*
+* Parameters
     + passive diffusion and is a poor substrate for the efflux protein P-glycoprotein [[2008_Lennernäs]](https://doi.org/10.1517/17425255.4.6.749)
     + $T_{max}$
         - tablet 1-1.7 h 
@@ -37,7 +37,7 @@
         - 100% when dose of <20 mg
         - 54% when dose of 50 mg in patients with adrenal insufficiency [[1984_Heazelwood]](https://doi.org/10.1111/j.1365-2125.1984.tb04999.x)
 ### Distribution
-*
+* Parameters
     + $V_{c}$
         - 7 to 23.9 L iv
         - 28.4 L when dose of 50 mg in patients with adrenal insufficiency [[1984_Heazelwood]](https://doi.org/10.1111/j.1365-2125.1984.tb04999.x)
