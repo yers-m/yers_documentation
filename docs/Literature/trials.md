@@ -1,29 +1,25 @@
 # Clinical Trials
 ## Reported by 2015_Whitaker 
 * [[2015_Whitaker]](https://doi.org/10.1210/jc.2014-4060)
-* EudraCT number: 2013-000260-28
-* NCT02777268
-* Phase 1 Trial
-* healthy male volunteers
-  * (18-60 years)
-  * no clinically significant sensitivity to hydrocortisone
-  * no clinically significant sensitivity to dexamethasone (DEX)  
-  * no infection
-* performed at Simbec Research Ltd (Merthyr Tydfil, UK)
+  * EudraCT number: 2013-000260-28
+  * NCT02777268
+  * Phase 1 Trial
+  * Healthy male volunteers
+    * 18-60 years
+    * no clinically significant sensitivity to hydrocortisone
+    * no clinically significant sensitivity to dexamethasone (DEX)  
+    * no infection
+  * performed at Simbec Research Ltd (Merthyr Tydfil, UK)
 * Formulation: Infacort® (Diurnal Ltd)
 * administration of HC (08:00 and 13:00)
   * after which received standardised meals
-* Recorded data
-  * body weight 
-  * height
-  * age
-* <u>four</u> study periods
+* <u>four study periods</u>
   * n=16
     * 2 volunteers were excluded 
       * insufficient suppression of the HPA axis
     * median values with range
       * $age$ 43.5 (21.0-59.0) years
-      * $weight$ 81.6 (64.7-96.0) kg
+      * $body weight$ 81.6 (64.7-96.0) kg
       * $height$ 1.77 (1.64-1.95) m
   * DEX
     * 1 mg 
@@ -37,7 +33,7 @@
   * washout period 
     * at least 1 week between periods
   * Measurements
-    * total plasma cortisol concentrations $C_{tot}$
+    * Total plasma cortisol concentrations ($C_{tot}$)
       * every 0.5 h between [0 h, 8 h] 
       * every 1.0 h between [9 h, 12 h]
       * LC-MS/MS
@@ -46,38 +42,34 @@
 
 ![Study design of the clinical tria](./screenshots/study_design_2015_Whitaker.png)
 
-*Study design of the clinical trial. Figure was adopted from [PhD thesis of Johanna Melin](https://refubium.fu-berlin.de/handle/fub188/23620).*
+*Summary of study design of the clinical trial. Figure was adopted from [PhD thesis of Johanna Melin](https://refubium.fu-berlin.de/handle/fub188/23620).*
 
 ---
 
 ## Reported by 2016_Debono 
 * [[2016_Debono]](https://doi.org/10.1210/jc.2015-3694)
-* EudraCT number: 2013-000259-42
-* NCT01960530
-* Phase 1 Trial
-* included evaluation of the endogenous cortisol synthesis/concentrations in absence of DEX
-* healthy male volunteers 
-  * (18-60 years)
-  * no clinically significant sensitivity to hydrocortisone
-  * no clinically significant sensitivity to dexamethasone (DEX)  
-  * no infection
-* performed at Simbec Research Ltd (Merthyr Tydfil, UK)
+  * EudraCT number: 2013-000259-42
+  * NCT01960530
+  * Phase 1 Trial
+  * included evaluation of the endogenous cortisol synthesis/concentrations in absence of DEX
+  * healthy male volunteers 
+    * (18-60 years)
+    * no clinically significant sensitivity to hydrocortisone
+    * no clinically significant sensitivity to dexamethasone (DEX)  
+    * no infection
+  * performed at Simbec Research Ltd (Merthyr Tydfil, UK)
 * Formulation
   * Infacort® (Diurnal Ltd)
   * HC tablet (Auden Mackenzie Ltd)
   * hydrocortisone succinate (iv)
-* administration of HC (08:00 and 13:00)
+* Administration of HC (08:00 and 13:00)
   * after which received standardised meals
-* Recorded data
-  * body weight 
-  * height
-  * age
-* <u>five</u> study periods
+* <u>five study periods</u>
   * n=14
     * no signs of insufficient suppression of the HPA axis
     * median values with range
       * $age$ 28.5 (22.0-60.0) years
-      * $weight$ 82.9 (63.6-102.7) kg
+      * $body weight $ 82.9 (63.6-102.7) kg
       * $height$ 1.83 (1.68-1.96) m
   * 1 period without + 4 with DEX 
   * single morning oral (po) or iv doses
@@ -89,7 +81,7 @@
   * washout period 
     * at least 1 week between last 4 periods
   * Measurements
-    * total plasma cortisol concentrations $C_{tot}$ 
+    * Total plasma cortisol concentrations ($C_{tot}$)
       * every 1.00 h between [0 h, 24 h] in absence of DEX (15:00-15:00)
       * every 0.25 h between [0 h, 3 h] 
       * every 1.00 h between [4 h, 6 h]
@@ -102,9 +94,9 @@
         * Accuracy <5% between [0.5, 300] nmol/L
     * CBG [[2003_Lewis]](https://doi.org/10.1016/s0009-8981(02)00417-5)
       * ELISA (Biovendor, Czech republic, Brno)
-      * LLOQ of 3.13 ng/mL
-      * intra-assay variability < 3.0%
-      * inter-assay variability < 8.0%
+        * LLOQ of 3.13 ng/mL
+        * intra-assay variability < 3.0%
+        * inter-assay variability < 8.0%
     * unbound cortisol concentrations ($C_u$)
       * 22:00 in absence of DEX
       * 07:00 in absence of DEX
@@ -119,16 +111,16 @@
 
 ![Study design of the clinical tria](./screenshots/study_design_2016_Debono.png)
 
-*Study design of the clinical trial. Figure was adopted from [PhD thesis of Johanna Melin](https://refubium.fu-berlin.de/handle/fub188/23620).*
+*Summey of study design of the clinical trial. Figure was adopted from [PhD thesis of Johanna Melin](https://refubium.fu-berlin.de/handle/fub188/23620).*
 
 ---
 
 ## Reported by Charite 
 * [[2016_Debono]](https://doi.org/10.1210/jc.2015-3694)
-* EudraCT number: 2014-002265-30 
-* Phase 3 Trial
-* Institute of Experimental Paediatric Endocrinology at Charite-Universitätsmedizin Berlin
-* Population 
+  * EudraCT number: 2014-002265-30 
+  * Phase 3 Trial
+  * Institute of Experimental Paediatric Endocrinology at Charite-Universitätsmedizin Berlin
+* Population Summary
 
 | Cohort       | Age Range         | Sample Size | Description                       |
 |--------------|-------------------|-------------|-----------------------------------|
@@ -143,7 +135,7 @@
   * with a spoon onto the tongue of the child 
   * washed down with fluid (milk, juice, water).
 * Measurements from intravenous cannula
-  * $C_{tot}$
+  * Total plasma cortisol concentrations ($C_{tot}$)
     * performed at Simbec Research Ltd (Merthyr Tydfil, UK)
   * CBG
     * performed at Simbec Research Ltd (Merthyr Tydfil, UK)
@@ -172,7 +164,7 @@
   * other signs of endocrine disorder
   * insufficient dosing history
 * Standard treatment of fludrocortisone
-* morning dose
+* Morning dose
   * median 123.8 μg/$m^2$
   * range 54.0-160.0
 * po administration
@@ -189,7 +181,7 @@
   * n=16
   * 15 mg/$m^2$
 * Measurements 
-  * $C_{tot}$ [[2001b_Charmandari]](https://doi.org/10.1210/jcem.86.10.7972)
+  * Total plasma cortisol concentrations ($C_{tot}$) [[2001b_Charmandari]](https://doi.org/10.1210/jcem.86.10.7972)
     * {iv} every 10 min up to 6 h post dose
     * {po} every 20 min up to 24 h
     * solid phase radioimmune assay
