@@ -1,5 +1,9 @@
 # NonLinear Mixed-Effects (NLME) modelling
-* analysing the population and individual level simultaneously
->     mixed-effects modelling = fixed-effects + random-effects
+* Aim
+  + to generate parameter estimates that describe the observed data most appropriately
+  + using maximum likelihood estimation
+  + iteratively selects parameters maximising the probability of observing the data
+* Analysing the population and individual level simultaneously
+> mixed-effects modelling = fixed-effects + random-effects
 
 ---

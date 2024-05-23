@@ -1,4 +1,4 @@
-# Submodels or model components
+# Model components
 
 ## Structural model
 * describes the central tendency in the data
