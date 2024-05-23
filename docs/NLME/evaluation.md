@@ -4,14 +4,14 @@
 * minimising the -2LL
 * lower OFV indicates a better fit
 * likelihood ratio test [[2014_Owen]](https://doi.org/10.1038%2Fpsp.2014.51)
-    * for nested models (complex models which can be collapsed to the simpler one)
-    * $χ^2$ distribution
-    * null hypothesis: no difference between models
+    + for nested models (complex models which can be collapsed to the simpler one)
+    + $χ^2$ distribution
+    + null hypothesis: no difference between models
     * hypothesis: difference between models
     * significance level (α) of 0.01: 
-      * OFV of 6.63 (degrees of freedom=1 or an increase of 1 parameter)
-      * OFV of 9.21 (degrees of freedom=2 or an increase of 2 parameters)
-      * etc.
+        * OFV of 6.63 (degrees of freedom=1 or an increase of 1 parameter)
+        * OFV of 9.21 (degrees of freedom=2 or an increase of 2 parameters)
+        * etc.
 
 | Degrees of Freedom | 0.05   | 0.01   | 0.001  |
 |--------------------|--------|--------|--------|
