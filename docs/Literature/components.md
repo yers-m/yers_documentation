@@ -7,7 +7,7 @@
    * IUPAC name: 11β,17α,21-Trihydroxypregn-4-ene-3,20-dione
    * Molecule Type: Small molecule
 
-![](./screenshots/cortisol_chembl_chem_str.png)
+![](./screenshots/cortisol_chembl.png)
 
 Figure from [ChEMBL](https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL389621/)
 
@@ -66,6 +66,7 @@ CBG Structure was created by py3Dmol tool
 
 ## ACTH
 * [[link]](https://pubchem.ncbi.nlm.nih.gov/compound/Corticotropin)
+
 ---
 
 ## Hypothalamic-Pituitary-Axis
