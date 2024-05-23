@@ -1,9 +1,9 @@
 # Project Information
 site_name: Yersultan's Documentation
-site_url: https://yers-m.github.io/yers_documentation/
+site_url: https://yers-m.github.io/documentation/
 site_description: Central Documentation of my projects.
 site_author: "Yersultan Mirasbekov"
-repo_url: https://github.com/yers-m/yers_documentation
+repo_url: https://github.com/yers-m/documentation
 repo_name: documentation
 edit_uri: edit/main/docs/
 copyright: Copyright &copy; 2024
@@ -70,7 +70,7 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/yers-m/yers_documentation
+      link: https://github.com/yers-m/documentation
       name: Documentation
 
 plugins:
