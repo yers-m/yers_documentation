@@ -7,9 +7,9 @@
     + still growing children: 8 mg/m$^2$/day divided in 3-4 doses [[2016_Bornstein]](https://doi.org/10.1210/jc.2015-1710)
     + more specific:  10-15 mg/m$^2$ · d divided into 3 doses [[2010_Speiser]](https://doi.org/10.1210/jc.2009-2631)
     + recommended daily dose to adult patients with adrenal insufficiency [[2016_Bornstein]](https://doi.org/10.1210/jc.2015-1710)
-      + at 06:00 10 mg
-      + at 14:00 5 mg
-      + at 22:00 5 mg 
+        + at 06:00 10 mg
+        + at 14:00 5 mg
+        + at 22:00 5 mg 
 * modified release formulations [[2016_Porter]](https://doi.org/10.1136/archdischild-2015-309538)
     + Plenadren 
     + Chronocort
