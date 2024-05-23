@@ -45,6 +45,7 @@
       * LLOQ 1.38 nmol/L
 
 ![Study design of the clinical tria](./screenshots/study_design_2015_Whitaker.png)
+
 *Study design of the clinical trial. Figure was adopted from [PhD thesis of Johanna Melin](https://refubium.fu-berlin.de/handle/fub188/23620).*
 
 ---
@@ -117,6 +118,7 @@
         * Accuracy <10.4% for concentrations between [2.7, 72.0] nmol/L [[2012_Jones]](https://doi.org/10.1016/j.jchromb.2011.11.036)
 
 ![Study design of the clinical tria](./screenshots/study_design_2016_Debono.png)
+
 *Study design of the clinical trial. Figure was adopted from [PhD thesis of Johanna Melin](https://refubium.fu-berlin.de/handle/fub188/23620).*
 
 ---
@@ -148,6 +150,7 @@
   * albumin
 
 ![Study design of the clinical trial](./screenshots/study_design_2014_Charite.png)
+
 *Study design of the clinical trial. Figure was adopted from [PhD thesis of Johanna Melin](https://refubium.fu-berlin.de/handle/fub188/23620).*
 
 ---
