@@ -10,7 +10,7 @@ $$OFV_{ELS} = \sum_{i=1}^{n} \left[ \frac{(y_i - \hat{y}_i)^2}{\text{var}(y_i)} 
 > $\hat{y}_i$ is the predicted/expected value for the $i^{th}$ observation; <br>
 > $\text{var}(y_i)$ is the variance of the $i^{th}$ observation.
 
-
+---
 
 ## Algorithms
 ### Gradient-based algorithms

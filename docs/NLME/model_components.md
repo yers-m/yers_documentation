@@ -12,6 +12,8 @@ $$y_{ij}=f(𝜙_{i},  x_{ij})$$
 > $𝜙$ - vector of model parameters ($CL$, $V_c$);<br>
 > $x$ - study design variables (covariates, dose and sampling times).
 
+---
+
 ## Pharmacostatistical model
 * several hierarchical levels of pharmacostatistical models
 
@@ -71,6 +73,8 @@ $$y_{ij}=f(𝜙_{i},  x_{ij}) + ε_{add,ij}$$
 $$y_{ij}=f(𝜙_{i},  x_{ij}) \cdot (1+ ε_{prop,ij})$$
 
 $$y_{ij}=f(𝜙_{i},  x_{ij}) \cdot (1+ ε_{prop,ij}) + {add,ij}$$
+
+---
 
 ## Covariate
 * whether any dose adjustments are needed in specific populations

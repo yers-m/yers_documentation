@@ -65,6 +65,8 @@ $$AIC=OFV+2 \cdot p$$
 * percentiles of the simulated and observed data are compared graphically [[2008_Holford]](https://www.page-meeting.org/?abstract=1434)
 * Categorical VPC is a useful tool to evaluate performance for categorical data [[2009_Bergstrand]](https://doi.org/10.1208/s12248-009-9112-5)
 
+---
+
 ## Evaluation of uncertainty in parameter estimates
 * variance-covariance matrix 
     * generated in NONMEM
@@ -111,6 +113,8 @@ $$RSE(\omega^2) = 100 \cdot \frac{SE(\omega^2)}{2 \cdot \omega^2}$$
     * new datasets where one individual has been removed
     * influential individual if
         * a relative change in parameter estimates of ±20% [[2011_Bonate]](https://doi.org/10.1007/b138744)
+
+---
 
 ## Simulations
 * Deterministic
