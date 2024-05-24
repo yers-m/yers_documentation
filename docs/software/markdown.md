@@ -5,91 +5,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Slideshow</title>
+    <title>Swiper Slideshow</title>
+    <!-- Include Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <style>
-        .slideshow-container {
-            max-width: 500px;
-            position: relative;
-            margin: auto;
-        }
-        .mySlides {
-            display: none;
-        }
-        img {
+        .swiper-container {
             width: 100%;
-            height: auto;
+            height: 100%;
         }
-        .prev, .next {
-            cursor: pointer;
-            position: absolute;
-            top: 50%;
-            width: auto;
-            margin-top: -22px;
-            padding: 16px;
-            color: white;
-            font-weight: bold;
-            font-size: 18px;
-            transition: 0.6s ease;
-            border-radius: 0 3px 3px 0;
-            user-select: none;
-        }
-        .next {
-            right: 0;
-            border-radius: 3px 0 0 3px;
-        }
-        .prev:hover, .next:hover {
-            background-color: rgba(0, 0, 0, 0.8);
-        }
-        .caption {
+
+        .swiper-slide {
             text-align: center;
-            color: #f2f2f2;
-            padding: 8px 12px;
-            background-color: rgba(0, 0, 0, 0.8);
+            font-size: 18px;
+            background: #fff;
+            /* Center slide text vertically */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
         }
     </style>
 </head>
 <body>
 
-<div class="slideshow-container">
-    <div class="mySlides">
-        <img src="../Literature/figures/py3Dmol_17-OHP.png" style="width:100%">
+<!-- Swiper -->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="../Literature/figures/py3Dmol_17-OHP.png" alt="Slide 1"></div>
+        <div class="swiper-slide"><img src="../Literature/figures/py3Dmol_CBG.png" alt="Slide 2"></div>
+        <div class="swiper-slide"><img src="../Literature/figures/py3Dmol_cortisol.png" alt="Slide 3"></div>
     </div>
-    <div class="mySlides">
-        <img src="../Literature/figures/py3Dmol_CBG.png" style="width:100%">
-    </div>
-    <div class="mySlides">
-        <img src="../Literature/figures/py3Dmol_cortisol.png" style="width:100%">
-    </div>
-    <a class="prev" onclick="plusSlides(-1)">❮</a>
-    <a class="next" onclick="plusSlides(1)">❯</a>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
 </div>
 
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
 <script>
-    var slideIndex = 1;
-    showSlides(slideIndex);
-
-    function plusSlides(n) {
-        showSlides(slideIndex += n);
-    }
-
-    function currentSlide(n) {
-        showSlides(slideIndex = n);
-    }
-
-    function showSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        if (n > slides.length) {
-            slideIndex = 1;
-        }
-        if (n < 1) {
-            slideIndex = slides.length;
-        }
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        slides[slideIndex - 1].style.display = "block";
-    }
+    var swiper = new Swiper('.swiper-container', {
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
 </script>
 
 </body>
