@@ -2,6 +2,7 @@
 
 ## How to make slide show of figures
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,7 +19,7 @@
             display: none;
         }
         img {
-            max-width: 100%;
+            width: 100%;
             height: 300px;
             object-fit: cover;
         }
