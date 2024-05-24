@@ -52,13 +52,13 @@
 
 <div class="slideshow-container">
     <div class="mySlides">
-        <img img="./figures/py3Dmol_17-OHP.png" style="weight:100%">
+        <img img="./figures/py3Dmol_17-OHP.png" style="width:100%">
     </div>
     <div class="mySlides">
-        <img img="./figures/py3Dmol_CBG.png" style="weight:100%">
+        <img img="./figures/py3Dmol_CBG.png" style="width:100%">
     </div>
     <div class="mySlides">
-        <img img="./figures/py3Dmol_cortisol.png" style="weight:100%">
+        <img img="./figures/py3Dmol_cortisol.png" style="width:100%">
     </div>
     <a class="prev" onclick="plusSlides(-1)">❮</a>
     <a class="next" onclick="plusSlides(1)">❯</a>
