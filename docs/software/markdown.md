@@ -101,7 +101,7 @@
 ---
 
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -140,86 +140,53 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 
 </body>
-</html>
+</html> -->
 
 ---
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Image Carousel</title>
-<style>
-  .carousel-container {
-    max-width: 600px;
-    margin: 0 auto;
-    overflow: hidden;
-    position: relative; /* Required for absolute positioning of next and prev buttons */
-  }
-  .carousel {
-    display: flex;
-    transition: transform 0.5s ease;
-  }
-  .carousel img {
-    width: 100%;
-    height: auto;
-  }
-  .carousel-controls {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    display: flex;
-  }
-  .carousel-controls button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 24px;
-    padding: 5px;
-  }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Carousel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles can be added here if needed */
+    </style>
 </head>
 <body>
 
-<div class="carousel-container">
-  <div class="carousel">
-    <img src="https://github.com/yers-m/documentation/raw/main/docs/software/figures/py3Dmol_17-OHP.png" alt="Image 1">
-    <img src="https://github.com/yers-m/documentation/raw/main/docs/software/figures/py3Dmol_CBG.png" alt="Image 2">
-    <img src="https://github.com/yers-m/documentation/raw/main/docs/software/figures/py3Dmol_cortisol.png" alt="Image 3">
-    <!-- Add more images as needed -->
-  </div>
-  <div class="carousel-controls">
-    <button id="prevBtn">&#10094;</button>
-    <button id="nextBtn">&#10095;</button>
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://github.com/yers-m/documentation/raw/main/docs/software/figures/py3Dmol_17-OHP.png" class="d-block w-100" alt="Slide 1">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://github.com/yers-m/documentation/raw/main/docs/software/figures/py3Dmol_CBG.png" class="d-block w-100" alt="Slide 2">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <!-- Add more carousel items as needed -->
   </div>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script>
-  // JavaScript for carousel functionality
-  const carousel = document.querySelector('.carousel');
-  const images = document.querySelectorAll('.carousel img');
-  const prevBtn = document.getElementById('prevBtn');
-  const nextBtn = document.getElementById('nextBtn');
-  
-  let counter = 0;
-
-  // Event listeners for prev and next buttons
-  prevBtn.addEventListener('click', () => {
-    counter = counter <= 0 ? images.length - 1 : counter - 1;
-    updateCarousel();
-  });
-
-  nextBtn.addEventListener('click', () => {
-    counter = counter >= images.length - 1 ? 0 : counter + 1;
-    updateCarousel();
-  });
-
-  // Function to update carousel display
-  function updateCarousel() {
-    carousel.style.transform = `translateX(-${counter * 100}%)`;
-  }
+    var myCarousel = new bootstrap.Carousel(document.getElementById('carouselExampleSlidesOnly'), {
+      interval: 5000, // Set interval time in milliseconds (e.g., 5000 for 5 seconds)
+      wrap: true // Enable carousel looping
+    });
 </script>
 
 </body>
 </html>
+
+---
+
