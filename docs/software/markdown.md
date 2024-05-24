@@ -18,7 +18,8 @@
         }
         img {
             width: auto;
-            height: auto;
+            height: 300px;
+            object-fit: cover;
         }
         .prev, .next {
             cursor: pointer;
