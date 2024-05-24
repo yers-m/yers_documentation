@@ -11,15 +11,12 @@ Here is a slideshow of the figures located in the `../Literature/Figures` folder
     <div class="slides">
         <img src="../Literature/Figures/py3Dmol_17-OHP.png" style="width:100%">
     </div>
-
     <div class="slides">
         <img src="../Literature/Figures/py3Dmol_CBG.png" style="width:100%">
     </div>
-
     <div class="slides">
         <img src="../Literature/Figures/py3Dmol_cortisol.png" style="width:100%">
     </div>
-
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
