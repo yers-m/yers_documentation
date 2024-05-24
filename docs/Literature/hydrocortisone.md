@@ -29,7 +29,7 @@
             - note: 1.7 h in high dose 50 mg [[TBA]]()
         - solution 0.7-1 h
         - pediatric adrenal insufficiency 0.33-3 h
-    + $t_{1/2,abs}$ [[2004_Mah]](10.1111/j.1365-2265.2004.02106.x)
+    + $t_{1/2,abs}$ [[2004_Mah]](https://doi.org/10.1111/j.1365-2265.2004.02106.x)
         - fasting: 15 min
         - fed: 43 min 
     + $C_{max}$
@@ -117,11 +117,11 @@
 * analysis in adults with a NCA by [[2015_Whitaker]](https://doi.org/10.1210/jc.2014-4060)
     * does not account for known nonlinearities of cortisol
 
-### Licensed oral HC tablet
+### Licensed oral Hydrocortisone tablet
 * <u>Auden Mackenzie Ltd</u>
 * oral (po)
 
-### Hydrocortisone succinate
+### Hydrocortisone Succinate
 * intravenous (iv) bolus 
 * HC administration
 
