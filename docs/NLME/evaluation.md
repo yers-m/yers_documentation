@@ -50,7 +50,7 @@ $$AIC=OFV+2 \cdot p$$
 
 
 ## Graphical evaluation
-* Standard **GOF** (goodness of fit) 
+### Standard Goodness of Fit - <kbd>**GOF**</kbd>
 * comparison of the predicted versus the observed concentrations
 * observations should be scattered evenly around the line of identity
 * **CWRES** (conditional weighted residuals)
@@ -64,7 +64,7 @@ $$AIC=OFV+2 \cdot p$$
 * CWRES vs. time
     * identification of time-dependencies
     * specification appears in the absorption or the elimination phase.
-* **VPC** (visual predictive checks)
+### Visual Predictive Check  - <kbd>**VPC**</kbd>
 * simulation-based graphical evaluation
 * to evaluate predictive performance of a model
 * the ability of a model to reproduce the observed data

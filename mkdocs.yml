@@ -74,6 +74,9 @@ nav:
     - NLME/baseline_models.md
     - NLME/bllq.md
     - NLME/evaluation.md
+  - Software:
+    - software/index.md
+    - software/software.md
   # - Blog:
   #     - blog/index.md
 
