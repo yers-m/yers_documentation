@@ -6,7 +6,7 @@
 
 ---
 
-## B1
+## <kbd>**B1**</kbd> 
 * individual baseline was derived considering IIV ($η_i$) and the population baseline
 * assuming a log-normal distribution of the baseline
 * does not require pre-dose measurements
@@ -18,7 +18,7 @@ $$baseline_𝑖 = baseline \cdot 𝑒^{𝜂_𝑖}$$
 
 ---
 
-## B2
+## <kbd>**B2**</kbd>
 * estimated $baseline_i$ is informed by
     * the individually observed initial concentration ($baseline_{obs,i}$)
     * the interindividual variability corresponding to the residual variability ($η_i,RV$)
@@ -27,12 +27,12 @@ $$𝑏𝑎𝑠𝑒𝑙𝑖𝑛𝑒_𝑖=𝑏𝑎𝑠𝑒𝑙𝑖𝑛𝑒_{𝑜�
 
 ---
 
-## B3
+## <kbd>**B3**</kbd>
 * [TBA]
 
 ---
 
-## B4
+## <kbd>**B4**</kbd>
 * [TBA]
 
 ---

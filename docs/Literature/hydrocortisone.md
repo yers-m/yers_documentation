@@ -117,12 +117,13 @@
 * analysis in adults with a NCA by [[2015_Whitaker]](https://doi.org/10.1210/jc.2014-4060)
     * does not account for known nonlinearities of cortisol
 
-### licensed oral HC tablet
+### Licensed oral HC tablet
 * <u>Auden Mackenzie Ltd</u>
 * oral (po)
 
-### hydrocortisone succinate
+### Hydrocortisone succinate
 * intravenous (iv) bolus 
 * HC administration
+
 ---
 

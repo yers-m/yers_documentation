@@ -13,6 +13,14 @@
         * OFV of 9.21 (degrees of freedom=2 or an increase of 2 parameters)
         * etc.
 
+$$OFV_{ELS} = \sum_{i=1}^{n} \left[ \frac{(y_i - \hat{y}_i)^2}{\text{var}(y_i)} + \ln(\text{var}(y_i)) \right] $$
+
+> $n$ is the number of observations; <br>
+> $y_i$ is the observed value for the $i^{th}$ observation; <br>
+> $\hat{y}_i$ is the predicted/expected value for the $i^{th}$ observation; <br>
+> $\text{var}(y_i)$ is the variance of the $i^{th}$ observation.
+
+
 | Degrees of Freedom | 0.05   | 0.01   | 0.001  |
 |--------------------|--------|--------|--------|
 | 1                  | 3.841  | 6.635  | 10.828 |

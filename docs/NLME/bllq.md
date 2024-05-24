@@ -12,24 +12,24 @@
 
 ---
 
-## M1
+## <kbd>**M1**</kbd>
 * Censoring observations below LLOQ
 
 ---
 
-## M2
+## <kbd>**M2**</kbd>
 * [TBA]
 
 ---
 
-## M3
+## <kbd>**M3**</kbd>
 * the likelihood for the observations below LLOQ is assessed
 * may not be possible for more complex models
     * generally provides more accurate parameter estimates over M1 [[2008_Ahn]](https://doi.org/10.1007/s10928-008-9094-4) [[2009_Bergstrand]](https://doi.org/10.1208/s12248-009-9112-5)
 
 ---
 
-## M4
+## <kbd>**M4**</kbd>
 * [TBA]
 
 ---

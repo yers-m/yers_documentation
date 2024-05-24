@@ -17,7 +17,7 @@ $$y_{ij}=f(𝜙_{i},  x_{ij})$$
 ## Pharmacostatistical model
 * several hierarchical levels of pharmacostatistical models
 
-### IIV - interindividual variability 
+### InterIndividual Variability <kbd>**IIV**</kbd>
 * difference between individuals
 * allows for the individual parameter estimate to differ from the population estimate
 * $𝜂_i$
@@ -44,7 +44,7 @@ $$𝜙_{i}=g(𝜃,  z_{i}) \cdot e^{𝜂_i}$$
 > $θ$ - population parameter estimates;<br>
 > $z_{i}$ - covariates.
 
-### IOV - interoccasion variability 
+### InterOccasion Variability - <kbd>**IOV**</kbd>
 * variability between different occasions
 * depends on study design (different doses/days/study periods...)
 * does not describe the reason for the variability between occasions
@@ -55,7 +55,7 @@ $$𝜙_{i}=g(𝜃,  z_{i}) \cdot e^{𝜂_i}$$
 
 $$𝜙_{i}=g(𝜃,  z_{i}) \cdot e^{𝜂_i+k_i}$$
 
-### RUV - residual unexplained variability
+### Residual Unexplained Variability <kbd>**RUV**</kbd>
 * unexplained variability resulting
     + e.g. measurement error, model misspecification and errors in dosing
 *discrepancy between the observed and individually predicted
@@ -76,7 +76,7 @@ $$y_{ij}=f(𝜙_{i},  x_{ij}) \cdot (1+ ε_{prop,ij}) + {add,ij}$$
 
 ---
 
-## Covariate
+## Covariate modeling
 * whether any dose adjustments are needed in specific populations
 * potentially reducing some unexplained IIV [[2012_Mould]](https://doi.org/10.1038%2Fpsp.2012.4)
     + body size related covariates

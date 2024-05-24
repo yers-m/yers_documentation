@@ -1,5 +1,6 @@
-# NonLinear Mixed-Effects (NLME) modelling
+# NLME modelling
 
+* NonLinear Mixed-Effects modelling
 * Aim
     * to generate parameter estimates that describe the observed data most appropriately
     * using maximum likelihood estimation

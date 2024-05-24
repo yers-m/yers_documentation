@@ -3,22 +3,17 @@
 * proportional to minus 2 times the log likelihood (-2LL)
 * extended least squares **ELS** objective function [[1980_Sheiner]](https://doi.org/10.1007/bf01060053)
 
-$$OFV_{ELS} = \sum_{i=1}^{n} \left[ \frac{(y_i - \hat{y}_i)^2}{\text{var}(y_i)} + \ln(\text{var}(y_i)) \right] $$
-
-> $n$ is the number of observations; <br>
-> $y_i$ is the observed value for the $i^{th}$ observation; <br>
-> $\hat{y}_i$ is the predicted/expected value for the $i^{th}$ observation; <br>
-> $\text{var}(y_i)$ is the variance of the $i^{th}$ observation.
-
 ---
 
 ## Algorithms
 ### Gradient-based algorithms
 * Taylor series approximations for numerical solution of the likelihood function
+
 ### First-Order Conditional Estimation algorithm - <kbd>**FOCE**</kbd>
 * linearised by conditioning on the individual etas [[2014_Owen]](https://doi.org/10.1038%2Fpsp.2014.51) [[2014_Johansson]](https://doi.org/10.1007/s10928-014-9359-z)
 ### FOCE with interaction - <kbd>**FOCEI**</kbd>
 * considering the interaction between ε and η [[2014_Owen]](https://doi.org/10.1038%2Fpsp.2014.51)
+
 ### <kbd>**LAPLACE**</kbd>
 * [[2014_Johansson]](https://doi.org/10.1007/s10928-014-9359-z)
 * second-order approximation
@@ -26,6 +21,7 @@ $$OFV_{ELS} = \sum_{i=1}^{n} \left[ \frac{(y_i - \hat{y}_i)^2}{\text{var}(y_i)} 
 * can be used for categorical data
 * can be used to consider observations below LLOQ
 * more unstable than e.g. FOCE
+
 ### Stochastic Approximation Expectation Maximisation - <kbd>**SAEM**</kbd>
 * [[2007_Bauer]](https://doi.org/10.1208/aapsj0901007)
 * step E: stochastic approximation
