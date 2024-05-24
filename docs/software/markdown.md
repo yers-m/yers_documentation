@@ -53,13 +53,13 @@
 
 <div class="slideshow-container">
     <div class="mySlides">
-        ![](./figures/py3Dmol_17-OHP.png)
+        <img src="https://d2exd72xrrp1s7.cloudfront.net/www/000/1k7/s9/s9rk9yy056glamlcq9ied3cy4fm7g7cj-uhi57078530/0?width=3072&height=2304&crop=false&q=70" style="width:100%">
     </div>
     <div class="mySlides">
-        ![](./figures/py3Dmol_17-OHP.png)
+        <img src="https://d2exd72xrrp1s7.cloudfront.net/www/000/1k7/s9/s9rk9yy056glamlcq9ied3cy4fm7g7cj-uhi57078530/0?width=3072&height=2304&crop=false&q=70" style="width:100%">
     </div>
     <div class="mySlides">
-        ![](./figures/py3Dmol_17-OHP.png)
+        <img src="https://d2exd72xrrp1s7.cloudfront.net/www/000/1k7/s9/s9rk9yy056glamlcq9ied3cy4fm7g7cj-uhi57078530/0?width=3072&height=2304&crop=false&q=70" style="width:100%">
     </div>
     <a class="prev" onclick="plusSlides(-1)">❮</a>
     <a class="next" onclick="plusSlides(1)">❯</a>
