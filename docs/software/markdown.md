@@ -11,6 +11,7 @@
     max-width: 600px;
     margin: 0 auto;
     overflow: hidden;
+    position: relative; /* Required for absolute positioning of next and prev buttons */
   }
   .carousel {
     display: flex;
@@ -20,16 +21,33 @@
     width: 100%;
     height: auto;
   }
+  .carousel-controls {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+  }
+  .carousel-controls button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 5px;
+  }
 </style>
 </head>
 <body>
 
 <div class="carousel-container">
   <div class="carousel">
-    <img src="./figures/py3Dmol_17-OHP.png" alt="Image 1">
-    <img src="./figures/py3Dmol_17-OHP.png" alt="Image 2">
-    <img src="./figures/py3Dmol_17-OHP.png" alt="Image 3">
+    <img src="./figures/image1.jpg" alt="Image 1">
+    <img src="./figures/image2.jpg" alt="Image 2">
+    <img src="./figures/image3.jpg" alt="Image 3">
     <!-- Add more images as needed -->
+  </div>
+  <div class="carousel-controls">
+    <button id="prevBtn">&#10094;</button>
+    <button id="nextBtn">&#10095;</button>
   </div>
 </div>
 
@@ -37,24 +55,31 @@
   // JavaScript for carousel functionality
   const carousel = document.querySelector('.carousel');
   const images = document.querySelectorAll('.carousel img');
-
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+  
   let counter = 0;
-  const intervalTime = 5000; // Change slide every 5 seconds
 
-  function nextSlide() {
-    // Move to the next image
-    counter++;
-    if (counter === images.length) {
-      counter = 0;
-    }
+  // Event listeners for prev and next buttons
+  prevBtn.addEventListener('click', () => {
+    counter = counter <= 0 ? images.length - 1 : counter - 1;
+    updateCarousel();
+  });
+
+  nextBtn.addEventListener('click', () => {
+    counter = counter >= images.length - 1 ? 0 : counter + 1;
+    updateCarousel();
+  });
+
+  // Function to update carousel display
+  function updateCarousel() {
     carousel.style.transform = `translateX(-${counter * 100}%)`;
   }
-
-  setInterval(nextSlide, intervalTime);
 </script>
 
 </body>
 </html>
+
 
 ---
 
