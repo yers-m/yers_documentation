@@ -1,21 +1,21 @@
 # Markdown
 
-![Cortisol structure created in Python by the py3Dmol tool](../Literature/Figures/py3Dmol_CBG.png)
+![Cortisol structure created in Python by the py3Dmol tool](../Literature/figures/py3Dmol_CBG.png)
 
 # Slideshow of Figures
 
-Here is a slideshow of the figures located in the `../Literature/Figures` folder.
+Here is a slideshow of the figures located in the `../Literature/figures` folder.
 
 <!-- Start of embedded HTML for the slideshow -->
 <div class="slideshow-container">
     <div class="slides">
-        <img src="../Literature/Figures/py3Dmol_17-OHP.png" style="width:100%">
+        <img src="../Literature/figures/py3Dmol_17-OHP.png" style="width:100%">
     </div>
     <div class="slides">
-        <img src="../Literature/Figures/py3Dmol_CBG.png" style="width:100%">
+        <img src="../Literature/figures/py3Dmol_CBG.png" style="width:100%">
     </div>
     <div class="slides">
-        <img src="../Literature/Figures/py3Dmol_cortisol.png" style="width:100%">
+        <img src="../Literature/figures/py3Dmol_cortisol.png" style="width:100%">
     </div>
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
