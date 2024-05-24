@@ -94,3 +94,101 @@
 
 </body>
 </html>
+
+
+---
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow</title>
+    <style>
+        .slideshow-container {
+            max-width: 500px;
+            position: relative;
+            margin: auto;
+        }
+        .mySlides {
+            display: none;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            margin-top: -22px;
+            padding: 16px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+        .prev:hover, .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+        .caption {
+            text-align: center;
+            color: #f2f2f2;
+            padding: 8px 12px;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+    </style>
+</head>
+<body>
+
+<div id="day1Carousel" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://d2exd72xrrp1s7.cloudfront.net/www/000/1k7/s9/s9rk9yy056glamlcq9ied3cy4fm7g7cj-uhi57078530/0?width=3072&height=2304&crop=false&q=70"
+                    class="d-block w-100" alt="Image 1">
+            </div>
+            <div class="carousel-item">
+                <img src="https://d2exd72xrrp1s7.cloudfront.net/www/000/1k5/10/10fayskjtim4u17d2gcejmhpi3qawcn5z-uhi31256964/0?width=3072&height=2304&crop=false&q=70"
+                    class="d-block w-100" alt="Image 2">
+            </div>
+            <div class="carousel-item">
+                <img src="https://d2exd72xrrp1s7.cloudfront.net/www/000/1k7/hj/hjt4ddbstjgc1b4d9peetyj2z4fm7g7el-uhi57078531/0?width=3072&height=2304&crop=false&q=70"
+                    class="d-block w-100" alt="Image 3">
+            </div>
+            <div class="carousel-item">
+                <img src="https://stfturist-lajka.imgix.net/v1/image/citybreak/7372142?w=800&auto=format"
+                    class="d-block w-100" alt="Image 4">
+            </div>
+            <div class="carousel-item">
+                <img src="https://stfturist-lajka.imgix.net/v1/image/citybreak/7372121?w=800&auto=format"
+                    class="d-block w-100" alt="Image 4">
+            </div>
+            <div class="carousel-item">
+                <img src="https://stfturist-lajka.imgix.net/v1/image/citybreak/7372143?w=800&auto=format"
+                    class="d-block w-100" alt="Image 4">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#day1Carousel"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#day1Carousel"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
