@@ -76,7 +76,11 @@ nav:
     - NLME/evaluation.md
   - Software:
     - software/index.md
-    - software/software.md
+    - software/psn.md
+    - software/pirana.md
+    - software/r_studio.md
+    - software/python.md
+    - software/markdown.md
   # - Blog:
   #     - blog/index.md
 
