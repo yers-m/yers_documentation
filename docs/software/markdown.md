@@ -19,7 +19,7 @@
         img {
             width: auto;
             height: 300px;
-            object-fit: cover;
+            /* object-fit: cover; */
         }
         .prev, .next {
             cursor: pointer;
