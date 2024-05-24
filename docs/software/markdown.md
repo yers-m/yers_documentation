@@ -1,7 +1,9 @@
 # Markdown
 
 ---
+
 layout: default
+
 ---
 
 <!-- Include Bootstrap CSS -->
