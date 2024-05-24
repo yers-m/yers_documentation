@@ -1,5 +1,6 @@
 # Markdown
 
+## How to make slide show of figures
 
 <!DOCTYPE html>
 <html lang="en">
@@ -17,9 +18,9 @@
             display: none;
         }
         img {
-            width: 100%;
-            height: 100%;
-            /* object-fit: cover; */
+            max-width: 100%;
+            height: 300px;
+            object-fit: cover;
         }
         .prev, .next {
             cursor: pointer;
@@ -144,7 +145,7 @@
 
 ---
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -173,7 +174,6 @@
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
-    <!-- Add more carousel items as needed -->
   </div>
 </div>
 
@@ -186,7 +186,7 @@
 </script>
 
 </body>
-</html>
+</html> -->
 
 ---
 
