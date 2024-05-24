@@ -153,28 +153,16 @@
 <div id="day1Carousel" class="carousel slide">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="https://d2exd72xrrp1s7.cloudfront.net/www/000/1k7/s9/s9rk9yy056glamlcq9ied3cy4fm7g7cj-uhi57078530/0?width=3072&height=2304&crop=false&q=70"
+                <img src="./figures/py3Dmol_17-OHP.png"
                     class="d-block w-100" alt="Image 1">
             </div>
             <div class="carousel-item">
-                <img src="https://d2exd72xrrp1s7.cloudfront.net/www/000/1k5/10/10fayskjtim4u17d2gcejmhpi3qawcn5z-uhi31256964/0?width=3072&height=2304&crop=false&q=70"
+                <img src="./figures/py3Dmol_CBG.png"
                     class="d-block w-100" alt="Image 2">
             </div>
             <div class="carousel-item">
-                <img src="https://d2exd72xrrp1s7.cloudfront.net/www/000/1k7/hj/hjt4ddbstjgc1b4d9peetyj2z4fm7g7el-uhi57078531/0?width=3072&height=2304&crop=false&q=70"
+                <img src="./figures/py3Dmol_cortisol.png"
                     class="d-block w-100" alt="Image 3">
-            </div>
-            <div class="carousel-item">
-                <img src="https://stfturist-lajka.imgix.net/v1/image/citybreak/7372142?w=800&auto=format"
-                    class="d-block w-100" alt="Image 4">
-            </div>
-            <div class="carousel-item">
-                <img src="https://stfturist-lajka.imgix.net/v1/image/citybreak/7372121?w=800&auto=format"
-                    class="d-block w-100" alt="Image 4">
-            </div>
-            <div class="carousel-item">
-                <img src="https://stfturist-lajka.imgix.net/v1/image/citybreak/7372143?w=800&auto=format"
-                    class="d-block w-100" alt="Image 4">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#day1Carousel"
@@ -188,8 +176,6 @@
             <span class="visually-hidden">Next</span>
         </button>
 </div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 
 </body>
 </html>
