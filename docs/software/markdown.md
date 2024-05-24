@@ -3,6 +3,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Carousel</title>
+<style>
+  .carousel-container {
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  .carousel img {
+    width: 100%;
+    height: auto;
+  }
+</style>
+</head>
+<body>
+
+<div class="carousel-container">
+  <div class="carousel">
+    <img src="./figures/py3Dmol_17-OHP.png" alt="Image 1">
+    <img src="./figures/py3Dmol_17-OHP.png" alt="Image 2">
+    <img src="./figures/py3Dmol_17-OHP.png" alt="Image 3">
+    <!-- Add more images as needed -->
+  </div>
+</div>
+
+<script>
+  // JavaScript for carousel functionality
+  const carousel = document.querySelector('.carousel');
+  const images = document.querySelectorAll('.carousel img');
+
+  let counter = 0;
+  const intervalTime = 5000; // Change slide every 5 seconds
+
+  function nextSlide() {
+    // Move to the next image
+    counter++;
+    if (counter === images.length) {
+      counter = 0;
+    }
+    carousel.style.transform = `translateX(-${counter * 100}%)`;
+  }
+
+  setInterval(nextSlide, intervalTime);
+</script>
+
+</body>
+</html>
+
+---
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slideshow</title>
@@ -93,7 +151,7 @@
 </script>
 
 </body>
-</html>
+</html> -->
 
 
 ---
