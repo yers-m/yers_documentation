@@ -31,9 +31,9 @@ This documentation serves multiple purposes:
 Whether you're a fellow researcher, a new team member, or just curious about pharmacometrics, this documentation is designed to provide you with a clear understanding of my work. Dive into the sections that interest you
 
 Feel free to reach out if you have questions or would like to discuss. You can find me here 
-    - [FU Berlin](https://www.bcp.fu-berlin.de/pharmazie/faecher/klinische_pharmazie/arbeitsgruppe_kloft/mitarbeiter/Doktoranden_innen/Yersultan_Mirasbekov) 
-    - [LinkdIn profile](https://www.linkedin.com/in/yersultan-m/)
-    - [Email address](mailto:yersultan.mirasbekov@fu-berlin.de)
+- [FU Berlin](https://www.bcp.fu-berlin.de/pharmazie/faecher/klinische_pharmazie/arbeitsgruppe_kloft/mitarbeiter/Doktoranden_innen/Yersultan_Mirasbekov) 
+- [LinkdIn profile](https://www.linkedin.com/in/yersultan-m/)
+- [Email address](mailto:yersultan.mirasbekov@fu-berlin.de)
 
 ## Acknowledgments 
 

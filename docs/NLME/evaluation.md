@@ -21,7 +21,7 @@ $$OFV_{ELS} = \sum_{i=1}^{n} \left[ \frac{(y_i - \hat{y}_i)^2}{\text{var}(y_i)} 
 > $\text{var}(y_i)$ is the variance of the $i^{th}$ observation.
 
 
-| Degrees of Freedom | 0.05   | 0.01   | 0.001  |
+| Degrees of Freedom | α=0.05 | α=0.01 | α=0.001|
 |--------------------|--------|--------|--------|
 | 1                  | 3.841  | 6.635  | 10.828 |
 | 2                  | 5.991  | 9.210  | 13.816 |
