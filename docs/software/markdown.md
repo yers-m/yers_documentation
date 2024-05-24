@@ -40,9 +40,9 @@
 
 <div class="carousel-container">
   <div class="carousel">
-    <img src="./figures/py3Dmol_CBG.jpg" alt="Image 1">
-    <img src="./figures/py3Dmol_CBG.jpg" alt="Image 2">
-    <img src="./figures/py3Dmol_CBG.jpg" alt="Image 3">
+    <img src="https://d2exd72xrrp1s7.cloudfront.net/www/000/1k7/s9/s9rk9yy056glamlcq9ied3cy4fm7g7cj-uhi57078530/0?width=3072&height=2304&crop=false&q=70" alt="Image 1">
+    <img src="https://d2exd72xrrp1s7.cloudfront.net/www/000/1k7/s9/s9rk9yy056glamlcq9ied3cy4fm7g7cj-uhi57078530/0?width=3072&height=2304&crop=false&q=70" alt="Image 2">
+    <img src="https://d2exd72xrrp1s7.cloudfront.net/www/000/1k7/s9/s9rk9yy056glamlcq9ied3cy4fm7g7cj-uhi57078530/0?width=3072&height=2304&crop=false&q=70" alt="Image 3">
     <!-- Add more images as needed -->
   </div>
   <div class="carousel-controls">
