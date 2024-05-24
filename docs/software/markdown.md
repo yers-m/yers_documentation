@@ -53,10 +53,10 @@
 
 <div class="slideshow-container">
     <div class="mySlides">
-        <img src="https://github.com/yers-m/documentation/raw/main/docs/software/figures/py3Dmol_coretisol.png" style="height:100%">
+        <img src="https://github.com/yers-m/documentation/raw/main/docs/software/figures/py3Dmol_cortisol.png" style="height:100%">
     </div>
     <div class="mySlides">
-        <img src="https://github.com/yers-m/documentation/raw/main/docs/software/figures/py3Dmol_17-OHP.png.png" style="height:100%">
+        <img src="https://github.com/yers-m/documentation/raw/main/docs/software/figures/py3Dmol_17-OHP.png" style="height:100%">
     </div>
     <div class="mySlides">
         <img src="https://github.com/yers-m/documentation/raw/main/docs/software/figures/py3Dmol_CBG.png" style="height:100%">
