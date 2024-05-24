@@ -1,89 +1,7 @@
 # Markdown
 
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Image Carousel</title>
-<style>
-  .carousel-container {
-    max-width: 600px;
-    margin: 0 auto;
-    overflow: hidden;
-    position: relative; /* Required for absolute positioning of next and prev buttons */
-  }
-  .carousel {
-    display: flex;
-    transition: transform 0.5s ease;
-  }
-  .carousel img {
-    width: 100%;
-    height: auto;
-  }
-  .carousel-controls {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    display: flex;
-  }
-  .carousel-controls button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 24px;
-    padding: 5px;
-  }
-</style>
-</head>
-<body>
-
-<div class="carousel-container">
-  <div class="carousel">
-    <img src="https://d2exd72xrrp1s7.cloudfront.net/www/000/1k7/s9/s9rk9yy056glamlcq9ied3cy4fm7g7cj-uhi57078530/0?width=3072&height=2304&crop=false&q=70" alt="Image 1">
-    <img src="https://d2exd72xrrp1s7.cloudfront.net/www/000/1k7/s9/s9rk9yy056glamlcq9ied3cy4fm7g7cj-uhi57078530/0?width=3072&height=2304&crop=false&q=70" alt="Image 2">
-    <img src="https://d2exd72xrrp1s7.cloudfront.net/www/000/1k7/s9/s9rk9yy056glamlcq9ied3cy4fm7g7cj-uhi57078530/0?width=3072&height=2304&crop=false&q=70" alt="Image 3">
-    <!-- Add more images as needed -->
-  </div>
-  <div class="carousel-controls">
-    <button id="prevBtn">&#10094;</button>
-    <button id="nextBtn">&#10095;</button>
-  </div>
-</div>
-
-<script>
-  // JavaScript for carousel functionality
-  const carousel = document.querySelector('.carousel');
-  const images = document.querySelectorAll('.carousel img');
-  const prevBtn = document.getElementById('prevBtn');
-  const nextBtn = document.getElementById('nextBtn');
-  
-  let counter = 0;
-
-  // Event listeners for prev and next buttons
-  prevBtn.addEventListener('click', () => {
-    counter = counter <= 0 ? images.length - 1 : counter - 1;
-    updateCarousel();
-  });
-
-  nextBtn.addEventListener('click', () => {
-    counter = counter >= images.length - 1 ? 0 : counter + 1;
-    updateCarousel();
-  });
-
-  // Function to update carousel display
-  function updateCarousel() {
-    carousel.style.transform = `translateX(-${counter * 100}%)`;
-  }
-</script>
-
-</body>
-</html>
-
-
----
-
-<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -135,13 +53,13 @@
 
 <div class="slideshow-container">
     <div class="mySlides">
-        <img src="./figures/py3Dmol_17-OHP.png" style="width:100%">
+        <img src="https://d2exd72xrrp1s7.cloudfront.net/www/000/1k7/s9/s9rk9yy056glamlcq9ied3cy4fm7g7cj-uhi57078530/0?width=3072&height=2304&crop=false&q=70" style="width:100%">
     </div>
     <div class="mySlides">
-        <img src="./figures/py3Dmol_CBG.png" style="width:100%">
+        <img src="https://d2exd72xrrp1s7.cloudfront.net/www/000/1k7/s9/s9rk9yy056glamlcq9ied3cy4fm7g7cj-uhi57078530/0?width=3072&height=2304&crop=false&q=70" style="width:100%">
     </div>
     <div class="mySlides">
-        <img src="./figures/py3Dmol_cortisol.png" style="width:100%">
+        <img src="https://d2exd72xrrp1s7.cloudfront.net/www/000/1k7/s9/s9rk9yy056glamlcq9ied3cy4fm7g7cj-uhi57078530/0?width=3072&height=2304&crop=false&q=70" style="width:100%">
     </div>
     <a class="prev" onclick="plusSlides(-1)">❮</a>
     <a class="next" onclick="plusSlides(1)">❯</a>
@@ -176,7 +94,7 @@
 </script>
 
 </body>
-</html> -->
+</html>
 
 
 ---
