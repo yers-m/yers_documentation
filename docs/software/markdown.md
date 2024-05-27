@@ -111,7 +111,7 @@
     <style>
         .slideshow-container {
             max-height: 500px;
-            max-height: 300px;
+            max-width: 300px;
             position: relative;
             margin: auto;
         }
