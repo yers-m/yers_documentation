@@ -15,7 +15,7 @@
 
 *Cortisol structure was created by py3Dmol tool.*
 
-<center><div style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs' data-cid='5754' data-backgroundcolor='0xffffff' data-style='stick' data-ui='true'></div></center>
+<center><div style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs' data-cid='5754' data-backgroundcolor='0xffffff' data-style='stick:colorscheme=cyanCarbon' data-ui='true'></div></center>
 
 *Cortisol structure was created by 3Dmol.js tool.*
 
@@ -56,10 +56,10 @@
 *CBG Structure was created by  py3Dmol tool.*
 
 <center><div style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' data-backgroundcolor='0xffffff'
-        data-style='stick' data-ui='true'></div></center>
+        data-style='stick:colorscheme=cyanCarbon' data-ui='true'></div></center>
 
-<center><div style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' 
-        data-style='cartoon:color=spectrum' data-surface1='opacity:.5;color:white'></div></center>
+<center><div style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' data-backgroundcolor='0xffffff'
+        data-style='cartoon:color=spectrum' data-surface='opacity:.5'></div></center>
 
 *CBG Structure was created by 3Dmol.js tool.*
 ---
@@ -73,7 +73,7 @@
 
 *17-OHP Structure was created by the py3Dmol tool.*
 
-<center><div style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs' data-cid='6238' data-backgroundcolor='0xffffff' data-style='stick' data-ui='true'></div></center>
+<center><div style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs' data-cid='6238' data-backgroundcolor='0xffffff' data-style='stick:colorscheme=cyanCarbon' data-ui='true'></div></center>
 
 *17-OHP structure was created by 3Dmol.js tool.*
 
