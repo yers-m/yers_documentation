@@ -41,10 +41,13 @@ document.addEventListener("DOMContentLoaded", function() {
         img.addEventListener('click', function() {
             if (this.classList.contains('zoomed')) {
                 this.classList.remove('zoomed'); // Remove zoom
-                document.getElementById('dimmed-overlay').classList.remove('zoomed');
+                document.getElementById('dimmed-overlay').remove(); // Remove dimmed overlay
             } else {
                 this.classList.add('zoomed'); // Add zoom
-                document.getElementById('dimmed-overlay').classList.add('zoomed');
+                const overlay = document.createElement('div');
+                overlay.classList.add('dimmed-overlay');
+                overlay.id = 'dimmed-overlay';
+                document.body.appendChild(overlay); // Add dimmed overlay
             }
         });
     });
@@ -57,3 +60,4 @@ document.addEventListener("DOMContentLoaded", function() {
         caption.innerText = fileName.replace(/_/g, ' '); // Set caption text
     });
 });
+
