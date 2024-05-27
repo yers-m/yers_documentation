@@ -89,8 +89,13 @@
     cursor: zoom-in;
 }
 .zoomed {
-    transform: scale(2);
+    transform: scale(1.8);
     cursor: zoom-out;
     position: relative;
     z-index: 10; /* Ensure zoomed image is above other elements */
+}
+
+/* Blur effect for everything except the zoomed image */
+.blurred *:not(.zoomed) {
+    filter: blur(5px);
 }

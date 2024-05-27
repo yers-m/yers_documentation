@@ -9,7 +9,7 @@
 
 ### CSS code for slideshow
 
-* the code used in extra.css
+* the code used in .../docs/javascripts/extra.css
 
 ```css
 /* Container for the entire slideshow */
@@ -101,6 +101,8 @@
 ```
 ### JavaScript code for slideshow
 
+* the code used in .../docs/javascripts/custom.js
+
 ```javascript
  // Initialize slide indices for multiple slideshows
 var slideIndices = {};
@@ -162,6 +164,8 @@ document.addEventListener("DOMContentLoaded", function() {
 ```
 
 ### Linking in Markdown file
+
+* the code used in any markdown file (.md) within Github Pages
 
 ```markdown
  # Python code
@@ -226,7 +230,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 # Python code
 
-## Slideshow 1
+#### Slideshow 1
 <div class="slideshow-container" id="slideshow1">
     <!-- Each slide with image and caption -->
     <div class="mySlides">
@@ -252,7 +256,7 @@ document.addEventListener("DOMContentLoaded", function() {
     <a class="next" onclick="plusSlides(1, 'slideshow1')">❯</a>
 </div>
 
-## Slideshow 2
+#### Slideshow 2
 <div class="slideshow-container" id="slideshow2">
     <!-- Each slide with image and caption -->
     <div class="mySlides">

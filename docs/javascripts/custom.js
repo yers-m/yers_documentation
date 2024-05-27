@@ -41,8 +41,10 @@ document.addEventListener("DOMContentLoaded", function() {
         img.addEventListener('click', function() {
             if (this.classList.contains('zoomed')) {
                 this.classList.remove('zoomed'); // Remove zoom
+                document.body.classList.remove('blurred'); // Remove blur
             } else {
                 this.classList.add('zoomed'); // Add zoom
+                document.body.classList.add('blurred'); // Add blur
             }
         });
     });
