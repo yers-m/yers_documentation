@@ -93,7 +93,7 @@
 </head>
 <body>
 
-<div class="slideshow-container">
+<div class="slideshow-container" id="slideshow1">
     <!-- Each slide with image and caption -->
     <div class="mySlides">
         <div class="image-container">
@@ -263,7 +263,7 @@
 </head>
 <body>
 
-<div class="slideshow-container">
+<div class="slideshow-container" id="slideshow1">
     <!-- Each slide with image and caption -->
     <div class="mySlides">
         <div class="image-container">
@@ -346,9 +346,9 @@
 
 # another try
 
-* Lierta 
+* Literature 
 
-<div class="slideshow-container">
+<div class="slideshow-container" id="slideshow2">
     <!-- Each slide with image and caption -->
     <div class="mySlides">
         <div class="image-container">
