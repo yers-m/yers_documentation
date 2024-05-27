@@ -118,8 +118,8 @@
             display: none;
         }
         .image-container {
-            width: 100%;
-            height: 300px;
+            width: auto;
+            height: 100%;
             overflow: hidden;
             position: relative;
         }
