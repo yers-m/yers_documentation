@@ -81,6 +81,7 @@ nav:
     - software/r_studio.md
     - software/python.md
     - software/markdown.md
+  - Experiments: exp.md
   # - Blog:
   #     - blog/index.md
 

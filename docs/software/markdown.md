@@ -98,13 +98,30 @@
     position: relative;
     z-index: 10; /* Ensure zoomed image is above other elements */
 }
+
+/* Dimmed overlay */
+.dimmed-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+    z-index: 9; /* Ensure the overlay is below the zoomed image */
+    pointer-events: none; /* Allow interaction with elements behind the overlay */
+}
+
+.dimmed-overlay.zoomed {
+    display: none; /* Hide the overlay when an image is zoomed */
+}
 ```
+
 ### JavaScript code for slideshow
 
 * the code used in .../docs/javascripts/custom.js
 
 ```javascript
- // Initialize slide indices for multiple slideshows
+// Initialize slide indices for multiple slideshows
 var slideIndices = {};
 
 // Function to change slides
@@ -147,8 +164,13 @@ document.addEventListener("DOMContentLoaded", function() {
         img.addEventListener('click', function() {
             if (this.classList.contains('zoomed')) {
                 this.classList.remove('zoomed'); // Remove zoom
+                document.getElementById('dimmed-overlay').remove(); // Remove dimmed overlay
             } else {
                 this.classList.add('zoomed'); // Add zoom
+                const overlay = document.createElement('div');
+                overlay.classList.add('dimmed-overlay');
+                overlay.id = 'dimmed-overlay';
+                document.body.appendChild(overlay); // Add dimmed overlay
             }
         });
     });
@@ -224,9 +246,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <script src="https://github.com/yers-m/documentation/raw/main/docs/javascripts/custom.js"></script>
 ```
 
-### Result
-
-<!-- <div class="dimmed-overlay" id="dimmed-overlay"></div> -->
+### Demonstration  
 
 #### Slideshow 1
 <div class="slideshow-container" id="slideshow1">
