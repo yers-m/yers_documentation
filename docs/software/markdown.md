@@ -168,9 +168,7 @@ document.addEventListener("DOMContentLoaded", function() {
 * the code used in any markdown file (.md) within Github Pages
 
 ```markdown
- # Python code
-
-## Slideshow 1
+#### Slideshow 1
 <div class="slideshow-container" id="slideshow1">
     <!-- Each slide with image and caption -->
     <div class="mySlides">
@@ -196,7 +194,7 @@ document.addEventListener("DOMContentLoaded", function() {
     <a class="next" onclick="plusSlides(1, 'slideshow1')">❯</a>
 </div>
 
-## Slideshow 2
+#### Slideshow 2
 <div class="slideshow-container" id="slideshow2">
     <!-- Each slide with image and caption -->
     <div class="mySlides">
@@ -228,7 +226,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Result
 
-# Python code
+<div class="dimmed-overlay" id="dimmed-overlay"></div>
 
 #### Slideshow 1
 <div class="slideshow-container" id="slideshow1">
