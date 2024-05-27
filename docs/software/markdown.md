@@ -3,7 +3,7 @@
 ## How to make slide show of figures
 
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -97,7 +97,7 @@
 </script>
 
 </body>
-</html>
+</html> -->
 
 
 ---
@@ -229,3 +229,5 @@
 
 </body>
 </html>
+
+---
