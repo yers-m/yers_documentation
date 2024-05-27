@@ -111,6 +111,7 @@
     <style>
         .slideshow-container {
             max-height: 500px;
+            max-height: 300px;
             position: relative;
             margin: auto;
         }
@@ -118,7 +119,7 @@
             display: none;
         }
         .image-container {
-            width: 300px;
+            width: 100%;
             height: 100%;
             overflow: hidden;
             position: relative;
@@ -172,16 +173,19 @@
     <div class="mySlides">
         <div class="image-container">
             <img src="https://github.com/yers-m/documentation/raw/main/docs/software/figures/py3Dmol_cortisol.png" class="zoom">
+            <div class="caption"></div>
         </div>
     </div>
     <div class="mySlides">
         <div class="image-container">
             <img src="https://github.com/yers-m/documentation/raw/main/docs/software/figures/py3Dmol_17-OHP.png" class="zoom">
+            <div class="caption"></div>
         </div>
     </div>
     <div class="mySlides">
         <div class="image-container">
             <img src="https://github.com/yers-m/documentation/raw/main/docs/software/figures/py3Dmol_CBG.png" class="zoom">
+            <div class="caption"></div>
         </div>
     </div>
     <a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -225,9 +229,18 @@
             }
         });
     });
+
+    // Add captions based on file names
+    document.querySelectorAll('.image-container').forEach(container => {
+        const img = container.querySelector('img');
+        const caption = container.querySelector('.caption');
+        const fileName = img.src.split('/').pop().split('.')[0];
+        caption.innerText = fileName.replace(/_/g, ' ');
+    });
 </script>
 
 </body>
 </html>
+
 
 ---
