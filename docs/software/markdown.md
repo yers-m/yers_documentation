@@ -226,7 +226,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Result
 
-<div class="dimmed-overlay" id="dimmed-overlay"></div>
+<!-- <div class="dimmed-overlay" id="dimmed-overlay"></div> -->
 
 #### Slideshow 1
 <div class="slideshow-container" id="slideshow1">
