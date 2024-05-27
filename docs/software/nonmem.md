@@ -1,4 +1,4 @@
 # NONMEM
-* NLME modelling
+* NLME models
 
 ---

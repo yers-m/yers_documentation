@@ -1,6 +1,6 @@
 # NLMEM
 
-* NonLinear Mixed-Effects models
+* NonLinear Mixed-Effects Models
 * Aim
     * to generate parameter estimates that describe the observed data most appropriately
     * using maximum likelihood estimation
