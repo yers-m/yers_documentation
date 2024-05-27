@@ -110,8 +110,8 @@
     <title>Slideshow</title>
     <style>
         .slideshow-container {
-            max-height: 500px;
-            max-width: 300px;
+            max-height: 450px;
+            max-width: 800px;
             position: relative;
             margin: auto;
         }
@@ -119,8 +119,8 @@
             display: none;
         }
         .image-container {
-            width: 300px;
-            height: 500px;
+            width: 800px;
+            height: 450px;
             overflow: hidden;
             position: relative;
         }
