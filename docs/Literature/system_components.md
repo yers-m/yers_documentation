@@ -13,7 +13,11 @@
 
 ![Cortisol structure created in Python by the py3Dmol tool](./figures/py3Dmol_cortisol.png)
 
-*Cortisol structure was created in Python by the py3Dmol tool.*
+*Cortisol structure was created by py3Dmol tool.*
+
+<center><div style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs' data-cid='5754' data-backgroundcolor='0xffffff' data-style='stick' data-ui='true'></div></center>
+
+*Cortisol structure was created by 3Dmol.js tool.*
 
 * a negative feedback on CRH and ACTH release, thereby inhibiting the HPA axis [[2002_Tsigos]](https://doi.org/10.1016/s0022-3999(02)00429-4)
 * saturable plasma protein binding of cortisol occurring at high cortisol concentrations [[1981_Toothaker]](https://doi.org/10.1007/bf01062332)
@@ -49,8 +53,15 @@
 
 ![CBG Structure created by py3Dmol tool](./figures/py3Dmol_CBG.png)
 
-*CBG Structure was created by the py3Dmol tool.*
+*CBG Structure was created by  py3Dmol tool.*
 
+<center><div style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' data-backgroundcolor='0xffffff'
+        data-style='stick' data-ui='true'></div></center>
+
+<center><div style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' 
+        data-style='cartoon:color=spectrum' data-surface1='opacity:.5;color:white'></div></center>
+
+*CBG Structure was created by 3Dmol.js tool.*
 ---
 
 ## 17-hydroxyprogesterone - <kbd>**17-OHP**</kbd>
@@ -61,6 +72,10 @@
 ![17-OHP Structure created by py3Dmol tool](./figures/py3Dmol_17-OHP.png)
 
 *17-OHP Structure was created by the py3Dmol tool.*
+
+<center><div style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs' data-cid='6238' data-backgroundcolor='0xffffff' data-style='stick' data-ui='true'></div></center>
+
+*17-OHP structure was created by 3Dmol.js tool.*
 
 ---
 
@@ -85,3 +100,7 @@
 
 ---
 
+<script src="https://3Dmol.org/build/3Dmol-min.js"></script>     
+<script src="https://3Dmol.org/build/3Dmol.ui-min.js"></script>  
+
+---

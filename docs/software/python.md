@@ -1,7 +1,7 @@
 # Python code
 
 ## py3Dmol
-### Description
+#### Description
 * To visualize molecular structures in 3D.
 * Interactive: Real-time manipulation (rotate, zoom).
 * Customizable: Various styles (stick, sphere, cartoon) and colors.
@@ -9,7 +9,7 @@
 * Ideal for Jupyter Notebooks.
 * Open Source [[py3dmol GitHubwebpage]](https://github.com/avirshup/py3dmol)
 
-### Example 1 (cortisol) input
+#### Example 1 (cortisol) input
 ```python
 #cortisol
 import py3Dmol
@@ -21,10 +21,10 @@ view.zoomTo()
 view.render()
 ```
 
-### Example 1 (cortisol) output
+#### Example 1 (cortisol) output
 ![](../Literature/figures/py3Dmol_cortisol.png)
 
-### Example 2 (CBG) input
+#### Example 2 (CBG) input
 ```python
 # CBG
 import py3Dmol
@@ -50,14 +50,14 @@ view.zoomTo()
 view.render()
 ```
 
-### Example 2 (CBG) output
+#### Example 2 (CBG) output
 ![](../Literature/figures/py3Dmol_CBG.png)
 
 ---
 
 ## 3Dmol.js
 
-### Example 1 (cortisol) input
+#### Example 1 (cortisol) input
 
 ```markdown
 <center><div style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs' data-cid='5754' data-backgroundcolor='0xffffff' data-style='stick' data-ui='true'></div></center>
@@ -65,28 +65,32 @@ view.render()
 <script src="https://3Dmol.org/build/3Dmol-min.js"></script>     
 <script src="https://3Dmol.org/build/3Dmol.ui-min.js"></script>  
 ```
-### Example 1 (cortisol) output
+#### Example 1 (cortisol) output
 
 <center><div style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs' data-cid='5754' data-backgroundcolor='0xffffff' data-style='stick' data-ui='true'></div></center>
  
-### Example 2 (CBG) input
+#### Example 2 (CBG) input
 
 ```markdown
 <center><div style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' data-backgroundcolor='0xffffff' data-style='stick' data-ui='true'></div></center>
 
 <center><div style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' 
-         data-select1='chain:A' data-style1='cartoon:color=spectrum' data-surface1='opacity:.5;color:white' data-select2='chain:B' data-style2='stick'></div></center>
+         data-style='cartoon:color=spectrum' data-surface1='opacity:.5;color:white'></div></center>
 
 <script src="https://3Dmol.org/build/3Dmol-min.js"></script>     
 <script src="https://3Dmol.org/build/3Dmol.ui-min.js"></script>  
 ```
-### Example 2 (CBG) output
+#### Example 2 (CBG) output
 
-<center><div style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' data-backgroundcolor='0xffffff' data-style='stick' data-ui='true'></div></center>
+<center><div style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' data-backgroundcolor='0xffffff'
+        data-style='stick' data-ui='true'></div></center>
 
 <center><div style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' 
-         data-select1='chain:A' data-style1='cartoon:color=spectrum' data-surface1='opacity:.5;color:white' data-select2='chain:B' data-style2='stick'></div></center>
+        data-style='cartoon:color=spectrum' data-surface1='opacity:.5;color:white'></div></center>
+
+---
 
 <script src="https://3Dmol.org/build/3Dmol-min.js"></script>     
 <script src="https://3Dmol.org/build/3Dmol.ui-min.js"></script>    
+
 ---
