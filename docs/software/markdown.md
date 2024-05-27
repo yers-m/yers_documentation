@@ -1,6 +1,6 @@
 # Markdown
 
-## How to make slideshow of figures
+## Slideshow of figures
 
 * Functionalities 
     * slide show
@@ -310,5 +310,55 @@ document.addEventListener("DOMContentLoaded", function() {
 
 <link rel="stylesheet" href="https://github.com/yers-m/documentation/raw/main/docs/stylesheets/extra.css">
 <script src="https://github.com/yers-m/documentation/raw/main/docs/javascripts/custom.js"></script>
+
+---
+
+## 3Dmol.js
+### Description
+* 3D molecular visualization tool for web browsers.
+* Interactive: Real-time manipulation (rotate, zoom).
+* Customizable: Supports various rendering styles (stick, sphere, cartoon) and color schemes.
+* Ease of Use: Simple JavaScript API for web developers.
+* Ideal for embedding in web pages and applications.
+* Open Source [3Dmol.js GitHub webpage](https://github.com/3dmol/3Dmol.js)
+
+
+### Examples
+#### Example 1 (cortisol) input
+
+```markdown
+<center><div style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs' data-cid='5754' data-backgroundcolor='0xffffff' data-style='stick:colorscheme=cyanCarbon' data-ui='true'></div></center>
+
+<script src="https://3Dmol.org/build/3Dmol-min.js"></script>     
+<script src="https://3Dmol.org/build/3Dmol.ui-min.js"></script>  
+```
+#### Example 1 (cortisol) output
+
+<center><div style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs' data-cid='5754' data-backgroundcolor='0xffffff'    data-style='stick:colorscheme=cyanCarbon' data-ui='true'></div></center>
+ 
+#### Example 2 (CBG) input
+
+```markdown
+<center><div style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' data-backgroundcolor='0xffffff'
+        data-style='stick:colorscheme=cyanCarbon' data-ui='true'></div></center>
+
+<center><div style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' data-backgroundcolor='0xffffff'
+        data-style='cartoon:color=spectrum' data-surface='opacity:.5'></div></center>
+
+<script src="https://3Dmol.org/build/3Dmol-min.js"></script>     
+<script src="https://3Dmol.org/build/3Dmol.ui-min.js"></script>  
+```
+#### Example 2 (CBG) output
+
+<center><div style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' data-backgroundcolor='0xffffff'
+        data-style='stick:colorscheme=cyanCarbon' data-ui='true'></div></center>
+
+<center><div style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' data-backgroundcolor='0xffffff'
+        data-style='cartoon:color=spectrum' data-surface='opacity:.5'></div></center>
+
+---
+
+<script src="https://3Dmol.org/build/3Dmol-min.js"></script>     
+<script src="https://3Dmol.org/build/3Dmol.ui-min.js"></script>    
 
 ---

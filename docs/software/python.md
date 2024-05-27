@@ -1,14 +1,15 @@
 # Python code
 
 ## py3Dmol
-#### Description
+### Description
 * To visualize molecular structures in 3D.
 * Interactive: Real-time manipulation (rotate, zoom).
 * Customizable: Various styles (stick, sphere, cartoon) and colors.
 * Ease of Use: Simple API for Python users.
 * Ideal for Jupyter Notebooks.
-* Open Source [[py3dmol GitHubwebpage]](https://github.com/avirshup/py3dmol)
+* Open Source [[py3Dmol GitHub webpage]](https://github.com/avirshup/py3dmol)
 
+### Examples
 #### Example 1 (cortisol) input
 ```python
 #cortisol
@@ -52,45 +53,5 @@ view.render()
 
 #### Example 2 (CBG) output
 ![](../Literature/figures/py3Dmol_CBG.png)
-
----
-
-## 3Dmol.js
-
-#### Example 1 (cortisol) input
-
-```markdown
-<center><div style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs' data-cid='5754' data-backgroundcolor='0xffffff' data-style='stick' data-ui='true'></div></center>
-
-<script src="https://3Dmol.org/build/3Dmol-min.js"></script>     
-<script src="https://3Dmol.org/build/3Dmol.ui-min.js"></script>  
-```
-#### Example 1 (cortisol) output
-
-<center><div style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs' data-cid='5754' data-backgroundcolor='0xffffff' data-style='stick' data-ui='true'></div></center>
- 
-#### Example 2 (CBG) input
-
-```markdown
-<center><div style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' data-backgroundcolor='0xffffff' data-style='stick' data-ui='true'></div></center>
-
-<center><div style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' 
-         data-style='cartoon:color=spectrum' data-surface1='opacity:.5;color:white'></div></center>
-
-<script src="https://3Dmol.org/build/3Dmol-min.js"></script>     
-<script src="https://3Dmol.org/build/3Dmol.ui-min.js"></script>  
-```
-#### Example 2 (CBG) output
-
-<center><div style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' data-backgroundcolor='0xffffff'
-        data-style='stick' data-ui='true'></div></center>
-
-<center><div style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' 
-        data-style='cartoon:color=spectrum' data-surface1='opacity:.5;color:white'></div></center>
-
----
-
-<script src="https://3Dmol.org/build/3Dmol-min.js"></script>     
-<script src="https://3Dmol.org/build/3Dmol.ui-min.js"></script>    
 
 ---
