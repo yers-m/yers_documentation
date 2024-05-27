@@ -99,10 +99,9 @@
 </body>
 </html> -->
 
-
 ---
 
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -111,7 +110,8 @@
     <style>
         /* Container for the entire slideshow */
         .slideshow-container {
-            max-width: 500px;
+            max-width: 800px;
+            min-width: 450px;
             position: relative;
             margin: auto;
         }
@@ -125,12 +125,14 @@
             height: 300px;
             overflow: hidden;
             position: relative;
+            max-width: 800px;
+            min-width: 450px;
         }
         /* Image styling for proper fit and zoom effect */
         .image-container img {
             width: 100%;
             height: 100%;
-            object-fit: cover;
+            object-fit: contain; /* Ensure the entire image is visible within the container */
             transition: transform 0.2s ease-in-out;
         }
         /* Navigation buttons */
@@ -261,9 +263,11 @@
 </script>
 
 </body>
-</html> -->
+</html>
 
 ---
+
+# another method 
 
 <!DOCTYPE html>
 <html lang="en">
@@ -289,7 +293,7 @@
         .image-container {
             width: 100%;
             height: 300px;
-            overflow: hidden;
+            overflow: visible; /* Allow overflow for zoom effect */
             position: relative;
             max-width: 800px;
             min-width: 450px;
@@ -355,6 +359,8 @@
         .zoomed {
             transform: scale(2);
             cursor: zoom-out;
+            position: relative;
+            z-index: 10; /* Ensure zoomed image is above other elements */
         }
     </style>
 </head>
@@ -438,5 +444,6 @@
 
 </body>
 </html>
+
 
 ---
