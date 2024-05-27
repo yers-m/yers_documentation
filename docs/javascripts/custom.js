@@ -41,10 +41,10 @@ document.addEventListener("DOMContentLoaded", function() {
         img.addEventListener('click', function() {
             if (this.classList.contains('zoomed')) {
                 this.classList.remove('zoomed'); // Remove zoom
-                document.body.classList.remove('dimmed'); // Remove dimming
+                document.getElementById('dimmed-overlay').classList.remove('zoomed');
             } else {
                 this.classList.add('zoomed'); // Add zoom
-                document.body.classList.add('dimmed'); // Add dimming
+                document.getElementById('dimmed-overlay').classList.add('zoomed');
             }
         });
     });
