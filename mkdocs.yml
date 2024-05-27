@@ -67,7 +67,7 @@ nav:
     - Literature/system_components.md
     - Literature/hydrocortisone.md
     - Literature/clinical_trials.md
-  - NLME:
+  - NLMEM:
     - NLMEM/index.md
     - NLMEM/model_components.md
     - NLMEM/parameter_estimation.md

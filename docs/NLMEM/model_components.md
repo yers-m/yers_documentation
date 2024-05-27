@@ -8,6 +8,8 @@
         * pharmacostatistical model;
         * covariate.
 
+---
+
 ## Structural model
 * mathematical form of algebraic/differential equations 
     * parameters, their relationships, or rate of change [[2007_Fisher]](https://www.scribd.com/document/319808093/Shafer-Nonmem-2) [[2012_Mould]](https://doi.org/10.1038%2Fpsp.2012.4)
