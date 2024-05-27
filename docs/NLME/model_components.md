@@ -17,7 +17,7 @@ $$y_{ij}=f(𝜙_{i},  x_{ij})$$
 ## Pharmacostatistical model
 * several hierarchical levels of pharmacostatistical models
 
-### InterIndividual Variability <kbd>**IIV**</kbd>
+### InterIndividual Variability - <kbd>**IIV**</kbd>
 * difference between individuals
 * allows for the individual parameter estimate to differ from the population estimate
 * $𝜂_i$
@@ -55,7 +55,7 @@ $$𝜙_{i}=g(𝜃,  z_{i}) \cdot e^{𝜂_i}$$
 
 $$𝜙_{i}=g(𝜃,  z_{i}) \cdot e^{𝜂_i+k_i}$$
 
-### Residual Unexplained Variability <kbd>**RUV**</kbd>
+### Residual Unexplained Variability - <kbd>**RUV**</kbd>
 * unexplained variability resulting
     + e.g. measurement error, model misspecification and errors in dosing
 *discrepancy between the observed and individually predicted

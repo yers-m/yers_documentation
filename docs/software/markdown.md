@@ -102,92 +102,130 @@
 
 ---
 
-
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
-
-<div id="day1Carousel" class="carousel slide">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="https://github.com/yers-m/documentation/raw/main/docs/software/figures/py3Dmol_17-OHP.png"
-                    class="d-block w-100" alt="Image 1">
-            </div>
-            <div class="carousel-item">
-                <img src="https://github.com/yers-m/documentation/raw/main/docs/software/figures/py3Dmol_CBG.png"
-                    class="d-block w-100" alt="Image 2">
-            </div>
-            <div class="carousel-item">
-                <img src="https://github.com/yers-m/documentation/raw/main/docs/software/figures/py3Dmol_cortisol.png"
-                    class="d-block w-100" alt="Image 3">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#day1Carousel"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#day1Carousel"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
-
-</body>
-</html> -->
-
----
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap Carousel</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Slideshow</title>
     <style>
-        /* Custom styles can be added here if needed */
+        .slideshow-container {
+            max-width: 500px;
+            position: relative;
+            margin: auto;
+        }
+        .mySlides {
+            display: none;
+        }
+        .image-container {
+            width: 100%;
+            height: 300px;
+            overflow: hidden;
+            position: relative;
+        }
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.2s ease-in-out;
+        }
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            margin-top: -22px;
+            padding: 16px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+        .prev:hover, .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+        .caption {
+            text-align: center;
+            color: #f2f2f2;
+            padding: 8px 12px;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+        /* Zoom styles */
+        .zoom {
+            cursor: zoom-in;
+        }
+        .zoomed {
+            transform: scale(2);
+            cursor: zoom-out;
+        }
     </style>
 </head>
 <body>
 
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://github.com/yers-m/documentation/raw/main/docs/software/figures/py3Dmol_17-OHP.png" class="d-block w-100" alt="Slide 1">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
+<div class="slideshow-container">
+    <div class="mySlides">
+        <div class="image-container">
+            <img src="https://github.com/yers-m/documentation/raw/main/docs/software/figures/py3Dmol_cortisol.png" class="zoom">
+        </div>
     </div>
-    <div class="carousel-item">
-      <img src="https://github.com/yers-m/documentation/raw/main/docs/software/figures/py3Dmol_CBG.png" class="d-block w-100" alt="Slide 2">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
-      </div>
+    <div class="mySlides">
+        <div class="image-container">
+            <img src="https://github.com/yers-m/documentation/raw/main/docs/software/figures/py3Dmol_17-OHP.png" class="zoom">
+        </div>
     </div>
-  </div>
+    <div class="mySlides">
+        <div class="image-container">
+            <img src="https://github.com/yers-m/documentation/raw/main/docs/software/figures/py3Dmol_CBG.png" class="zoom">
+        </div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script>
-    var myCarousel = new bootstrap.Carousel(document.getElementById('carouselExampleSlidesOnly'), {
-      interval: 5000, // Set interval time in milliseconds (e.g., 5000 for 5 seconds)
-      wrap: true // Enable carousel looping
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        if (n > slides.length) {
+            slideIndex = 1;
+        }
+        if (n < 1) {
+            slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slides[slideIndex - 1].style.display = "block";
+    }
+
+    // Zoom functionality
+    document.querySelectorAll('.zoom').forEach(img => {
+        img.addEventListener('click', function() {
+            if (this.classList.contains('zoomed')) {
+                this.classList.remove('zoomed');
+            } else {
+                this.classList.add('zoomed');
+            }
+        });
     });
 </script>
 
 </body>
-</html> -->
-
----
-
+</html>
