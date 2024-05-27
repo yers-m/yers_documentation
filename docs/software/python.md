@@ -18,16 +18,30 @@ view = py3Dmol.view(query='cid:5754')
 
 view.setStyle({'stick': {'color':'spectrum'}})
 view.zoomTo()
-
-# Save the visualization as an HTML file
-view.render("visualization.html")
+view.render()
 ```
 
 ### Example output
 ![](../Literature/figures/py3Dmol_cortisol.png)
 
-### 3Dmol.js
-<script src="https://3Dmol.org/build/3Dmol-min.js"></script>     
-<script src="https://3Dmol.org/build/3Dmol.ui-min.js"></script>     
+### using 3Dmol.js
+
+#### Input
+
+```markdown
+<center><div style="height: 400px; width: 400px; position: relative;" class='viewer_3Dmoljs' data-cid='5754' data-backgroundcolor='0xffffff' data-style='stick' data-ui='true'></div></center>
  
-<div style="height: 400px; width: 400px; position: relative;" class='viewer_3Dmoljs' data-cid='5754' data-backgroundcolor='0xffffff' data-style='stick' data-ui='true'></div>
+
+
+<script src="https://3Dmol.org/build/3Dmol-min.js"></script>     
+<script src="https://3Dmol.org/build/3Dmol.ui-min.js"></script>  
+```
+#### Output
+
+<center><div style="height: 400px; width: 400px; position: relative;" class='viewer_3Dmoljs' data-cid='5754' data-backgroundcolor='0xffffff' data-style='stick' data-ui='true'></div></center>
+ 
+
+
+<script src="https://3Dmol.org/build/3Dmol-min.js"></script>     
+<script src="https://3Dmol.org/build/3Dmol.ui-min.js"></script>    
+---
