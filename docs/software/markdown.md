@@ -119,7 +119,7 @@
             display: none;
         }
         .image-container {
-            width: 800px;
+            width: 100%;
             height: 450px;
             overflow: hidden;
             position: relative;
