@@ -1,3 +1,6 @@
 # Experiments with Github Pages
 
-* [🔗](google.com "search engine")
+* Includes some functionalities that could be potentially used.
+
+## creating emoji links with annotation
+* [🔗](https://scholar.google.com/ "Google Scholar")

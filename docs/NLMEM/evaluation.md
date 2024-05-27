@@ -5,6 +5,7 @@
 * lower OFV indicates a better fit
 * likelihood ratio test [[2014_Owen]](https://doi.org/10.1038%2Fpsp.2014.51)
     * for nested models (complex models which can be collapsed to the simpler one)
+    * not useful to compare distinct models
     * $χ^2$ distribution
     * null hypothesis: no difference between models
     * hypothesis: difference between models
@@ -12,13 +13,15 @@
         * OFV of 6.63 (degrees of freedom=1 or an increase of 1 parameter)
         * OFV of 9.21 (degrees of freedom=2 or an increase of 2 parameters)
         * etc.
+    * 
 
 $$OFV_{ELS} = \sum_{i=1}^{n} \left[ \frac{(y_i - \hat{y}_i)^2}{\text{var}(y_i)} + \ln(\text{var}(y_i)) \right] $$
-
 > $n$ is the number of observations; <br>
 > $y_i$ is the observed value for the $i^{th}$ observation; <br>
 > $\hat{y}_i$ is the predicted/expected value for the $i^{th}$ observation; <br>
 > $\text{var}(y_i)$ is the variance of the $i^{th}$ observation.
+
+
 
 
 | Degrees of Freedom | α=0.05 | α=0.01 | α=0.001|
@@ -36,20 +39,34 @@ $$OFV_{ELS} = \sum_{i=1}^{n} \left[ \frac{(y_i - \hat{y}_i)^2}{\text{var}(y_i)} 
 
 
 ### Akaike Information Criterion - <kbd>**AIC**</kbd>
-* [[2006_Bonate]](https://doi.org/10.1007/b138744)
+* penalties are applied as a function of increased number of parameters
+* [[1974_Akaike]](https://doi.org/10.1007/978-1-4612-1694-0_16) [[2006_Bonate]](https://doi.org/10.1007/b138744) 
     * not nested 
     * lower AIC indicates the better fit 
 
 $$AIC=OFV+2 \cdot p$$
 
 ### Bayesian Information Criterion - <kbd>**BIC**</kbd>
-* [TBA]
+* penalties are applied as a function of increased number of parameters [[2014_Delattre]](http://dx.doi.org/10.1214/14-EJS890)
+* [1978_Schwarz](https://doi.org/10.1214/aos/1176344136)
+    * not nested 
+    * lower BIC indicates the better fit 
 
+$$
+\text{BIC}_{\text{mixed}} = \text{OFV} + p_{\text{random}} \cdot \ln(n_{\text{id}}) + p_{\text{fixed}} \cdot \ln(n_{\text{obs}})
+$$
+> $\text{OFV} = -2 \times \ln(L)$ - Objective Function Value, where $L$ is the likelihood of the model; <br>
+> $p_{\text{random}}$ - number of random effects parameters; <br>
+> $p_{\text{fixed}}$ - number of fixed effects parameters; <br>
+> $n_{\text{id}}$ - number of unique individuals (clusters); <br>
+> $n_{\text{obs}}$ - number of observations.
 
 ---
 
 
 ## Graphical evaluation
+* models can be evaluated by visual examination of data plots [[1992_Mandema]](https://doi.org/10.1007/bf01061469)
+
 ### Standard Goodness of Fit - <kbd>**GOF**</kbd>
 * comparison of the predicted versus the observed concentrations
 * observations should be scattered evenly around the line of identity
@@ -65,6 +82,9 @@ $$AIC=OFV+2 \cdot p$$
     * identification of time-dependencies
     * specification appears in the absorption or the elimination phase.
 ### Visual Predictive Check  - <kbd>**VPC**</kbd>
+* model diagnostics [[2008_Karlsson]](https://www.page-meeting.org/?abstract=1434)
+    * constructing simulated data using the developed model and 
+    * comparing it with the existing dataset 
 * simulation-based graphical evaluation
 * to evaluate predictive performance of a model
 * the ability of a model to reproduce the observed data

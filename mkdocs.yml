@@ -68,12 +68,12 @@ nav:
     - Literature/hydrocortisone.md
     - Literature/clinical_trials.md
   - NLME:
-    - NLME/index.md
-    - NLME/model_components.md
-    - NLME/parameter_estimation.md
-    - NLME/baseline_models.md
-    - NLME/bllq.md
-    - NLME/evaluation.md
+    - NLMEM/index.md
+    - NLMEM/model_components.md
+    - NLMEM/parameter_estimation.md
+    - NLMEM/baseline_models.md
+    - NLMEM/bllq.md
+    - NLMEM/evaluation.md
   - Software:
     - software/index.md
     - software/psn.md

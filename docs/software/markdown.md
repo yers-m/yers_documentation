@@ -1,6 +1,14 @@
 # Markdown
 
-## How to make slide show of figures
+## How to make slideshow of figures
+
+* Functionalities 
+    * slide show
+    * height determines dimensions of the image
+    * 1.8x zoom-in by clicking 
+        * can be changed in `transform: scale(1.8)`
+    * dimmed overlay
+        * to dim everything around figure when zoomed in
 
 * the slideshow functionality across multiple markdown files in GitHub Pages
     * use CSS code 

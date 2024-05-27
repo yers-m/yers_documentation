@@ -1,13 +1,25 @@
 # Parameter Estimation
+
+* parameter values define “goodness” of the model
+
 ## Objective Function Value
+* represents the goodness of fit [[2013_Mould]](https://doi.org/10.1038/psp.2013.14)
 * proportional to minus 2 times the log likelihood (-2LL)
 * extended least squares **ELS** objective function [[1980_Sheiner]](https://doi.org/10.1007/bf01060053)
+* the preference is given to lower OFV [[2013_Mould]](https://doi.org/10.1038/psp.2013.14)
+    * by iterative “hill climbing” procedure to find the lowest OFV, or minima, within a given search space. [[2008_Cambini]](https://books.google.de/books?hl=en&lr=&id=JEcwQgngoE8C&oi=fnd&pg=PA1&dq=Cambini,+A.,+%26+Martein,+L.+(2008).+Generalized+convexity+and+optimization:+Theory+and+applications+(Vol.+616).+Springer+Science+%26+Business+Media.&ots=bah69g9QPg&sig=Kwa2904XtX65SkbLCrqmrqa23W4&redir_esc=y#v=onepage&q&f=false)
+* Initial parameter estimates have an important role [[2015_Sale]](https://doi.org/10.1111/bcp.12179)
+    * estimation can be “trapped” gradient search in local OFV minima, and “mask” the global minimum 
+
+![](./screenshots/parameter_estimation.png)
+ *Figure was adopted from [[2015_Sale]](https://doi.org/10.1111/bcp.12179).*
 
 ---
 
 ## Algorithms
 ### Gradient-based algorithms
 * Taylor series approximations for numerical solution of the likelihood function
+* 
 
 ### First-Order Conditional Estimation algorithm - <kbd>**FOCE**</kbd>
 * linearised by conditioning on the individual etas [[2014_Owen]](https://doi.org/10.1038%2Fpsp.2014.51) [[2014_Johansson]](https://doi.org/10.1007/s10928-014-9359-z)
