@@ -110,7 +110,7 @@
     <title>Slideshow</title>
     <style>
         .slideshow-container {
-            max-height: 450px;
+            /* max-height: 450px; */
             max-width: 800px;
             position: relative;
             margin: auto;
