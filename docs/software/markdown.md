@@ -203,19 +203,31 @@ document.addEventListener("DOMContentLoaded", function() {
     <!-- Each slide with image and caption -->
     <div class="mySlides">
         <div class="image-container">
-            <img src="https://github.com/yers-m/documentation/raw/main/docs/software/figures/py3Dmol_cortisol.png" class="zoom">
+            <img src="https://matt.might.net/articles/phd-school-in-pictures/images/PhDKnowledge.007.jpg" class="zoom">
             <div class="caption"></div>
         </div>
     </div>
     <div class="mySlides">
         <div class="image-container">
-            <img src="https://github.com/yers-m/documentation/raw/main/docs/software/figures/py3Dmol_17-OHP.png" class="zoom">
+            <img src="https://matt.might.net/articles/phd-school-in-pictures/images/PhDKnowledge.008.jpg" class="zoom">
             <div class="caption"></div>
         </div>
     </div>
     <div class="mySlides">
         <div class="image-container">
-            <img src="https://github.com/yers-m/documentation/raw/main/docs/software/figures/py3Dmol_CBG.png" class="zoom">
+            <img src="https://matt.might.net/articles/phd-school-in-pictures/images/PhDKnowledge.009.jpg" class="zoom">
+            <div class="caption"></div>
+        </div>
+    </div>
+    <div class="mySlides">
+        <div class="image-container">
+            <img src="https://matt.might.net/articles/phd-school-in-pictures/images/PhDKnowledge.010.jpg" class="zoom">
+            <div class="caption"></div>
+        </div>
+    </div>
+    <div class="mySlides">
+        <div class="image-container">
+            <img src="https://matt.might.net/articles/phd-school-in-pictures/images/PhDKnowledge.012.jpg" class="zoom">
             <div class="caption"></div>
         </div>
     </div>
@@ -223,6 +235,8 @@ document.addEventListener("DOMContentLoaded", function() {
     <a class="prev" onclick="plusSlides(-1, 'slideshow1')">❮</a>
     <a class="next" onclick="plusSlides(1, 'slideshow1')">❯</a>
 </div>
+
+*Images were adopted from Matt Might. "The illustrated guide to a Ph.D." [🔗](https://matt.might.net/articles/phd-school-in-pictures/)*
 
 #### Slideshow 2
 <div class="slideshow-container" id="slideshow2">
@@ -261,19 +275,31 @@ document.addEventListener("DOMContentLoaded", function() {
     <!-- Each slide with image and caption -->
     <div class="mySlides">
         <div class="image-container">
-            <img src="https://github.com/yers-m/documentation/raw/main/docs/software/figures/py3Dmol_cortisol.png" class="zoom">
+            <img src="https://matt.might.net/articles/phd-school-in-pictures/images/PhDKnowledge.007.jpg" class="zoom">
             <div class="caption"></div>
         </div>
     </div>
     <div class="mySlides">
         <div class="image-container">
-            <img src="https://github.com/yers-m/documentation/raw/main/docs/software/figures/py3Dmol_17-OHP.png" class="zoom">
+            <img src="https://matt.might.net/articles/phd-school-in-pictures/images/PhDKnowledge.008.jpg" class="zoom">
             <div class="caption"></div>
         </div>
     </div>
     <div class="mySlides">
         <div class="image-container">
-            <img src="https://github.com/yers-m/documentation/raw/main/docs/software/figures/py3Dmol_CBG.png" class="zoom">
+            <img src="https://matt.might.net/articles/phd-school-in-pictures/images/PhDKnowledge.009.jpg" class="zoom">
+            <div class="caption"></div>
+        </div>
+    </div>
+    <div class="mySlides">
+        <div class="image-container">
+            <img src="https://matt.might.net/articles/phd-school-in-pictures/images/PhDKnowledge.010.jpg" class="zoom">
+            <div class="caption"></div>
+        </div>
+    </div>
+    <div class="mySlides">
+        <div class="image-container">
+            <img src="https://matt.might.net/articles/phd-school-in-pictures/images/PhDKnowledge.012.jpg" class="zoom">
             <div class="caption"></div>
         </div>
     </div>
@@ -281,6 +307,8 @@ document.addEventListener("DOMContentLoaded", function() {
     <a class="prev" onclick="plusSlides(-1, 'slideshow1')">❮</a>
     <a class="next" onclick="plusSlides(1, 'slideshow1')">❯</a>
 </div>
+
+*Images were adopted from Matt Might. "The illustrated guide to a Ph.D." [🔗](https://matt.might.net/articles/phd-school-in-pictures/)*
 
 #### Slideshow 2
 <div class="slideshow-container" id="slideshow2">
@@ -336,12 +364,7 @@ document.addEventListener("DOMContentLoaded", function() {
 ```
 #### Example 1 (cortisol) output
 
-<center><div    style="height: 450px; width: 100%; position: relative;" 
-                class='viewer_3Dmoljs' 
-                data-cid='5754' 
-                data-backgroundcolor='0xffffff'    
-                data-style='stick:colorscheme=cyanCarbon' 
-                data-ui='true'></div></center>
+<center><div style="height: 450px; width: 100%; position: relative;" class='viewer_3Dmoljs' data-cid='5754' data-backgroundcolor='0xffffff'    data-style='stick:colorscheme=cyanCarbon' data-ui='true'></div></center>
  
 #### Example 2 (CBG) input
 
