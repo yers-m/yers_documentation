@@ -316,7 +316,7 @@ document.addEventListener("DOMContentLoaded", function() {
     style="height: 450px; width: 100%; position: relative;" 
     class='viewer_3Dmoljs' 
     data-cid='2519' 
-    data-backgroundcolor='0x00000000' 
+    data-backgroundcolor='0xffffff' 
     data-style='stick:colorscheme=cyanCarbon' 
     data-ui='true'>
   </div>
@@ -333,7 +333,7 @@ document.addEventListener("DOMContentLoaded", function() {
     style="height: 450px; width: 100%; position: relative;" 
     class='viewer_3Dmoljs' 
     data-cid='2519' 
-    data-backgroundcolor='0x00000000' 
+    data-backgroundcolor='0xffffff' 
     data-style='stick:colorscheme=cyanCarbon' 
     data-ui='true'>
   </div>
@@ -346,22 +346,54 @@ document.addEventListener("DOMContentLoaded", function() {
 *
 
 ```html
-<center><div style="height: 450px; width: 100%; position: relative;" class='viewer_3Dmoljs' data-pdb='3EML' data-backgroundcolor='0xffffff'
-        data-style='stick:colorscheme=cyanCarbon' data-ui='true'></div></center>
+<center>
+  <div 
+    style="height: 450px; width: 100%; position: relative;" 
+    class='viewer_3Dmoljs' 
+    data-pdb='3EML' 
+    data-backgroundcolor='0xffffff' 
+    data-style='stick:colorscheme=cyanCarbon' 
+    data-ui='true'>
+  </div>
+</center>
 
-<center><div style="height: 450px; width: 100%; position: relative;" class='viewer_3Dmoljs' data-pdb='3EML' data-backgroundcolor='0xffffff'
-        data-style='cartoon:color=spectrum' data-surface='opacity:.5'></div></center>
+<center>
+  <div 
+    style="height: 450px; width: 100%; position: relative;" 
+    class='viewer_3Dmoljs' 
+    data-pdb='3EML' 
+    data-backgroundcolor='0xffffff' 
+    data-style='cartoon:color=spectrum' 
+    data-surface='opacity:.5'>
+  </div>
+</center>
 
 <script src="https://3Dmol.org/build/3Dmol-min.js"></script>     
 <script src="https://3Dmol.org/build/3Dmol.ui-min.js"></script>  
 ```
 *
 
-<center><div style="height: 450px; width: 100%; position: relative;" class='viewer_3Dmoljs' data-pdb='3EML' data-backgroundcolor='0xffffff'
-        data-style='stick:colorscheme=cyanCarbon' data-ui='true'></div></center>
+<center>
+  <div 
+    style="height: 450px; width: 100%; position: relative;" 
+    class='viewer_3Dmoljs' 
+    data-pdb='3EML' 
+    data-backgroundcolor='0xffffff' 
+    data-style='stick:colorscheme=cyanCarbon' 
+    data-ui='true'>
+  </div>
+</center>
 
-<center><div style="height: 450px; width: 100%; position: relative;" class='viewer_3Dmoljs' data-pdb='3EML' data-backgroundcolor='0xffffff'
-        data-style='cartoon:color=spectrum' data-surface='opacity:.5'></div></center>
+<center>
+  <div 
+    style="height: 450px; width: 100%; position: relative;" 
+    class='viewer_3Dmoljs' 
+    data-pdb='3EML' 
+    data-backgroundcolor='0xffffff' 
+    data-style='cartoon:color=spectrum' 
+    data-surface='opacity:.5'>
+  </div>
+</center>
 
 *Structure of Human A2A Adenosine Receptor bound to ZM241385. It is antagonized by caffeine. "PDB:3EML" [🔗](https://www.rcsb.org/structure/3EML)*
 
