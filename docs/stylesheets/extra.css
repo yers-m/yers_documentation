@@ -11,7 +11,7 @@
 /* Container for the entire slideshow */
 .slideshow-container {
     max-width: 800px;
-    min-width: 450px;
+    min-width: 100px;
     position: relative;
     margin: auto;
 }
@@ -28,7 +28,7 @@
     overflow: visible; /* Allow overflow for zoom effect */
     position: relative;
     max-width: 800px;
-    min-width: 450px;
+    min-width: 100px;
 }
 
 /* Image styling for proper fit and zoom effect */
