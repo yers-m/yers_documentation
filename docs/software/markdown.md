@@ -311,7 +311,16 @@ document.addEventListener("DOMContentLoaded", function() {
 * input
 
 ```html
-<center><div style="height: 450px; width: 100%; position: relative;" class='viewer_3Dmoljs' data-cid='2519' data-backgroundcolor='0xffffff' data-style='stick:colorscheme=cyanCarbon' data-ui='true'></div></center>
+<center>
+  <div 
+    style="height: 450px; width: 100%; position: relative;" 
+    class='viewer_3Dmoljs' 
+    data-cid='2519' 
+    data-backgroundcolor='0x00000000' 
+    data-style='stick:colorscheme=cyanCarbon' 
+    data-ui='true'>
+  </div>
+</center>
 
 <script src="https://3Dmol.org/build/3Dmol-min.js"></script>     
 <script src="https://3Dmol.org/build/3Dmol.ui-min.js"></script>  
@@ -324,7 +333,7 @@ document.addEventListener("DOMContentLoaded", function() {
     style="height: 450px; width: 100%; position: relative;" 
     class='viewer_3Dmoljs' 
     data-cid='2519' 
-    data-backgroundcolor='rgba(255, 255, 255, 0)' 
+    data-backgroundcolor='0x00000000' 
     data-style='stick:colorscheme=cyanCarbon' 
     data-ui='true'>
   </div>
