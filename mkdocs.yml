@@ -11,8 +11,8 @@ copyright: Copyright &copy; 2024
 theme:
   name: material
   language: en
-  logo: assets/PharMetrX.gif
-  favicon: assets/PharMetrX.gif
+  logo: assets/circle.png
+  favicon: assets/circle.png
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
