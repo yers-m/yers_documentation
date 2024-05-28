@@ -365,15 +365,21 @@ document.addEventListener("DOMContentLoaded", function() {
 
 #### Synchronized Viewer
 
-
-<center>
-        <div id="viewer1" style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' data-backgroundcolor='0xffffff' data-style='stick:colorscheme=cyanCarbon' data-ui='true'></div>
-</center>
-<center>
-        <div id="viewer2" style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' data-backgroundcolor='0xffffff' data-style='cartoon:color=spectrum' data-surface='opacity:.5'></div>
-</center>
-
-<script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3Dmol.js Synchronized Viewers</title>
+</head>
+<body>
+    <center>
+        <div id="viewer1" style="height: 450px; width: 100%; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' data-backgroundcolor='0xffffff' data-style='stick:colorscheme=cyanCarbon' data-ui='true'></div>
+    </center>
+    <center>
+        <div id="viewer2" style="height: 450px; width: 100%; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' data-backgroundcolor='0xffffff' data-style='cartoon:color=spectrum' data-surface='opacity:.5'></div>
+    </center>
+    <script>
         // Create viewers
         let viewer1 = $3Dmol.createViewer("viewer1", {
             defaultcolors: $3Dmol.rasmolElementColors
@@ -392,5 +398,6 @@ document.addEventListener("DOMContentLoaded", function() {
         viewer2.render();
         // Link the viewers to sync their movements
         viewer1.link(viewer2);
-</script>
-
+    </script>
+</body>
+</html>
