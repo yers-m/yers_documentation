@@ -1,6 +1,7 @@
 # Hydrocortisone 
 ## Introduction
 * synthetic cortisol
+    * cannot be bioanalytically separated from endogenous cortisol [[2018_Melin]](https://doi.org/10.1007/s40262-017-0575-8)
 * the relatively short half-life of 1.5 h
 * lack of licensed formulation for this population (for <6yo)
 * Dose
@@ -14,7 +15,7 @@
     + Plenadren 
     + Chronocort
 * administration 
-    + subcutaneously via insulin -> circadian cortisol profile and improved 17-OHP concentrations [[]](../articles/2014_Hindmarsh.pdf)
+    + subcutaneously via insulin -> circadian cortisol profile and improved 17-OHP concentrations [[2014_Hindmarsh]](https://doi.org/10.1111/cen.12453)
 * BCS (biopharmaceutical classification system) **class II** [[1995_Amidon]](https://doi.org/10.1023/a:1016212804288)
     + low dissolution rate and high intestinal permeability [[2008_Lennernäs]](https://doi.org/10.1517/17425255.4.6.749)
 

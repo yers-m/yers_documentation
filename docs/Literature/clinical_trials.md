@@ -25,7 +25,7 @@
         * 1 mg 
         * in each study period
         * to suppress the endogenous cortisol synthesis
-    * Single morning oral (po) doses of Infacort
+    * Single morning oral (po) doses of Infacort®
         * 0.5 mg 
         * 2   mg
         * 5   mg
@@ -39,10 +39,11 @@
             * LC-MS/MS
               * Applied Biosystems MDS Sciex API 365 triple quadrupole atmospheric pressure ionisation mass spectrometer
             * LLOQ 1.38 nmol/L
+            * intra-assay variability <15% at LLOQ and <10% for 22–552 nmol/L
 
 ![Study design of the clinical tria](./screenshots/study_design_2015_Whitaker.png)
 
-*Summary of study design of the clinical trial. Figure was adopted from [PhD thesis of Johanna Melin](https://refubium.fu-berlin.de/handle/fub188/23620).*
+*Summary of study design of the clinical trial. Figure was adopted from [2018_Melin](https://doi.org/10.1007/s40262-017-0575-8).*
 
 ---
 
@@ -60,7 +61,7 @@
     * performed at Simbec Research Ltd (Merthyr Tydfil, UK)
 * Formulation
     * Infacort® (Diurnal Ltd)
-    * HC tablet (Auden Mackenzie Ltd)
+    * HC tablet (Auden Mackenzie Ltd, Ruislip, UK)
     * hydrocortisone succinate (iv)
 * Administration of HC (08:00 and 13:00)
     * after which received standardised meals
@@ -109,9 +110,9 @@
                 * inter-assay variability <9.5%
                 * Accuracy <10.4% for concentrations between [2.7, 72.0] nmol/L [[2012_Jones]](https://doi.org/10.1016/j.jchromb.2011.11.036)
 
-![Study design of the clinical tria](./screenshots/study_design_2016_Debono.png)
+![Study design of the clinical trial](./screenshots/study_design_2016_Debono.png)
 
-*Summey of study design of the clinical trial. Figure was adopted from [PhD thesis of Johanna Melin](https://refubium.fu-berlin.de/handle/fub188/23620).*
+*Summey of study design of the clinical trial. Figure was adopted from [2018_Melin](https://doi.org/10.1007/s40262-017-0575-8).*
 
 ---
 
@@ -124,13 +125,13 @@
 
 | Cohort       | Age Range         | Sample Size | Description                       |
 |--------------|-------------------|-------------|-----------------------------------|
-| Cohort 1     | 2-6 years         | n=12        | young children                    |
-| Cohort 2     | 28 days-2 years   | n=6         | infants                           |
 | Cohort 3     | birth-28 days     | n=6         | neonates                          |
+| Cohort 2     | 28 days-2 years   | n=6         | infants                           |
+| Cohort 1     | 2-6 years         | n=12        | young children                    |
 
 * Dose: 1-4 mg
     * fasted 2h before and 1h (or 30 min for <1 y.o.) after dose 
-* Formulation: opened Infacort capsule
+* Formulation: opened Infacort® capsule
     * granules
     * with a spoon onto the tongue of the child 
     * washed down with fluid (milk, juice, water).
@@ -181,7 +182,8 @@
     * n=16
     * 15 mg/$m^2$
 * Measurements 
-    * Total plasma cortisol concentrations ($C_{tot}$) [[2001b_Charmandari]](https://doi.org/10.1210/jcem.86.10.7972)
+    * Total plasma cortisol concentrations ($C_{tot}$) 
+        * [[2001b_Charmandari]](https://doi.org/10.1210/jcem.86.10.7972)
         * {iv} every 10 min up to 6 h post dose
         * {po} every 20 min up to 24 h
         * solid phase radioimmune assay
@@ -190,14 +192,15 @@
             * inter-assay variability 
                 * 6.3% for 138 nmol
                 * 4.5% for 276 nmol
-  * [17-OHP] [[2001c_Charmandari]](https://doi.org/10.1677/joe.0.1690065)
-      * {po} every 20 min up to 24 h
-      * solid phase radioimmune assay
-          * Coat-A-Count, DPC, Los Angeles, CA, USA
-          * LLOQ of 0.3 nmol/L
-          * inter-assay variability 
-              * 11% for 1.06 nmol
-              * 8.5% for 18.5 nmol
+    * 17-OHP 
+        * [[2001c_Charmandari]](https://doi.org/10.1677/joe.0.1690065)
+        * {po} every 20 min up to 24 h
+        * solid phase radioimmune assay
+            * Coat-A-Count, DPC, Los Angeles, CA, USA
+            * LLOQ of 0.3 nmol/L
+            * inter-assay variability 
+                * 11% for 1.06 nmol
+                * 8.5% for 18.5 nmol
 
 ---
 

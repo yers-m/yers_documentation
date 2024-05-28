@@ -4,9 +4,9 @@
     * represented in the form of mathematical relationships 
     * to answer certain questions and aid particular purposes 
     * using a combination of models:
-        * structural model;
-        * pharmacostatistical model;
-        * covariate.
+        * [structural model](#structural-model);
+        * [pharmacostatistical model](#pharmacostatistical-model);
+        * [covariate model](#covariate-model).
 
 ---
 
@@ -91,7 +91,7 @@ $$y_{ij}=f(𝜙_{i},  x_{ij}) \cdot (1+ ε_{prop,ij}) + {add,ij}$$
 
 ---
 
-## Covariate modeling
+## Covariate model
 * explain variability using observable factors between subjects [[2013_Mould]](https://doi.org/10.1038/psp.2013.14)
     * e.g. age, disease progression, height, weight, or interacting agents/drugs 
 * whether any dose adjustments are needed in specific populations

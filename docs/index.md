@@ -4,10 +4,6 @@
 
 Hello! My name is Yersultan. Welcome to my documentation page for my PhD projects in pharmacometrics at FU Berlin. This portal is my digital notebook, capturing my work, its challenges, and possible solutions.
 
-## My Role
-
-My primary role in the team involves ... (TBA)
-
 ## Documentation Goals
 
 This documentation serves multiple purposes:
