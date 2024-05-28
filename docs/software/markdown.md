@@ -266,7 +266,7 @@ document.addEventListener("DOMContentLoaded", function() {
     <!-- Each slide with image and caption -->
     <div class="mySlides">
         <div class="image-container">
-            <img src="http://www.phdcomics.com/comics/archive/phd050508s.gif" class="zoom">
+            <img src="http://www.phdcomics.com/comics/archive/phd031305s.gif" class="zoom">
             <div class="caption"></div>
         </div>
     </div>
@@ -278,7 +278,7 @@ document.addEventListener("DOMContentLoaded", function() {
     </div>
     <div class="mySlides">
         <div class="image-container">
-            <img src="http://www.phdcomics.com/comics/archive/phd031305s.gif" class="zoom">
+            <img src="http://www.phdcomics.com/comics/archive/phd050508s.gif" class="zoom">
             <div class="caption"></div>
         </div>
     </div>
@@ -402,15 +402,17 @@ document.addEventListener("DOMContentLoaded", function() {
 * Input
 
 ```html
-
 <center>
   <div 
     style="height: 450px; width: 100%; position: relative;" 
     class='viewer_3Dmoljs' 
     data-pdb='6J5T' 
-    data-backgroundcolor='0xffffff' 
-    data-style='cartoon:color=spectrum' 
-    data-surface='opacity:.5'>
+    data-backgroundcolor='0xffffff'
+    data-style='cartoon:color=black'
+    data-select1='chain:A,D,I,J,M' data-style1='cartoon:color=#69BE28'
+    data-select2='chain:B,E,H,K,N' data-style2='cartoon:color=#FF8849'
+    data-select3='chain:C,F,G,L,O' data-style3='cartoon:color=#3DB7E4'     
+    data-surface='opacity:.4;color:0xffffff'>
   </div>
 </center>
 
