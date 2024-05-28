@@ -424,12 +424,14 @@ document.addEventListener("DOMContentLoaded", function() {
     style="height: 450px; width: 100%; position: relative;" 
     class='viewer_3Dmoljs'
     data-pdb='2OGM' 
-    data-backgroundcolor='0xffffff' 
     data-select1='chain:A'
+    data-backgroundcolor1='0xffffff' 
     data-style1='cartoon:color=spectrum' 
-    data-surface1='opacity:.5'
+    data-surface1='opacity:.7;color:white'
     data-select2='chain:B'
-    data-style2='stick:colorscheme=cyanCarbon'>
+    data-backgroundcolor2='0xffffff' 
+    data-style2='cartoon:colorscheme=cyanCarbon'
+    data-surface2='opacity:.5'>
   </div>
 </center>
 
