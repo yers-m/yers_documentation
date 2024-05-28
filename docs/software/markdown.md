@@ -407,7 +407,7 @@ document.addEventListener("DOMContentLoaded", function() {
   <div 
     style="height: 450px; width: 100%; position: relative;" 
     class='viewer_3Dmoljs' 
-    data-pdb='2OGM' 
+    data-pdb='6J5T' 
     data-backgroundcolor='0xffffff' 
     data-style='cartoon:color=spectrum' 
     data-surface='opacity:.5'>
@@ -422,20 +422,18 @@ document.addEventListener("DOMContentLoaded", function() {
 <center>
   <div 
     style="height: 450px; width: 100%; position: relative;" 
-    class='viewer_3Dmoljs'
-    data-pdb='2OGM' 
-    data-select1='chain:A'
-    data-backgroundcolor1='0xffffff' 
-    data-style1='cartoon:color=spectrum' 
-    data-surface1='opacity:.7;color:white'
-    data-select2='chain:B'
-    data-backgroundcolor2='0xffffff' 
-    data-style2='cartoon:colorscheme=cyanCarbon'
-    data-surface2='opacity:.5'>
+    class='viewer_3Dmoljs' 
+    data-pdb='6J5T' 
+    data-backgroundcolor='0xffffff'
+    data-style='cartoon:color=black'
+    data-select1='chain:A,D,I,J,M' data-style1='cartoon:color=#69BE28'
+    data-select2='chain:B,E,H,K,N' data-style2='cartoon:color=#FF8849'
+    data-select3='chain:C,F,G,L,O' data-style3='cartoon:color=#3DB7E4'     
+    data-surface='opacity:.4;color:0xffffff'>
   </div>
 </center>
 
-*Structure of large ribosomal subunit. "PDB:2OGM" [🔗](https://www.rcsb.org/structure/2OGM)*
+*Structure of of a plant NLR resistosome. An immune system machines that play role in protection of plants from infection. "PDB:6J5T; MW of 924 kDa" [🔗](https://www.rcsb.org/structure/6J5T)*
 
 ---
 
