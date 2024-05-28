@@ -343,7 +343,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 #### Example 2: Human A2A Adenosine Receptor 
 
-*
+* Input
 
 ```html
 <center>
@@ -371,7 +371,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <script src="https://3Dmol.org/build/3Dmol-min.js"></script>     
 <script src="https://3Dmol.org/build/3Dmol.ui-min.js"></script>  
 ```
-*
+* Output
 
 <center>
   <div 
@@ -399,19 +399,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 #### Example 3: Human A2A Adenosine Receptor 
 
-*
+* Input
 
 ```html
-<center>
-  <div 
-    style="height: 450px; width: 100%; position: relative;" 
-    class='viewer_3Dmoljs' 
-    data-pdb='2OGM' 
-    data-backgroundcolor='0xffffff' 
-    data-style='stick:colorscheme=cyanCarbon' 
-    data-ui='true'>
-  </div>
-</center>
 
 <center>
   <div 
@@ -427,27 +417,19 @@ document.addEventListener("DOMContentLoaded", function() {
 <script src="https://3Dmol.org/build/3Dmol-min.js"></script>     
 <script src="https://3Dmol.org/build/3Dmol.ui-min.js"></script>  
 ```
-*
+* Output
 
 <center>
   <div 
     style="height: 450px; width: 100%; position: relative;" 
-    class='viewer_3Dmoljs' 
+    class='viewer_3Dmoljs'
     data-pdb='2OGM' 
     data-backgroundcolor='0xffffff' 
-    data-style='stick:colorscheme=cyanCarbon' 
-    data-ui='true'>
-  </div>
-</center>
-
-<center>
-  <div 
-    style="height: 450px; width: 100%; position: relative;" 
-    class='viewer_3Dmoljs' 
-    data-pdb='2OGM' 
-    data-backgroundcolor='0xffffff' 
-    data-style='cartoon:color=spectrum' 
-    data-surface='opacity:.5'>
+    data-select1='chain:A'
+    data-style1='cartoon:color=spectrum' 
+    data-surface1='opacity:.5'
+    data-select2='chain:B'
+    data-style2='stick:colorscheme=cyanCarbon'>
   </div>
 </center>
 
