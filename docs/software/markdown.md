@@ -266,7 +266,7 @@ document.addEventListener("DOMContentLoaded", function() {
     <!-- Each slide with image and caption -->
     <div class="mySlides">
         <div class="image-container">
-            <img src="http://www.phdcomics.com/comics/archive/phd050399s.gif" class="zoom">
+            <img src="http://www.phdcomics.com/comics/archive/phd050508s.gif" class="zoom">
             <div class="caption"></div>
         </div>
     </div>
@@ -320,7 +320,9 @@ document.addEventListener("DOMContentLoaded", function() {
 * Output
 
 <center><div style="height: 450px; width: 100%; position: relative;" class='viewer_3Dmoljs' data-cid='2519' data-backgroundcolor='0xffffff'    data-style='stick:colorscheme=cyanCarbon' data-ui='true'></div></center>
- 
+
+*Structure of caffeine. "CID:2519" [🔗](https://pubchem.ncbi.nlm.nih.gov/compound/Caffeine)*
+
 #### Example 2: 
 
 *
@@ -343,7 +345,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <center><div style="height: 450px; width: 100%; position: relative;" class='viewer_3Dmoljs' data-pdb='3EML' data-backgroundcolor='0xffffff'
         data-style='cartoon:color=spectrum' data-surface='opacity:.5'></div></center>
 
-*Structure Human A2A Adenosine Receptor bound to ZM241385. It is antagonized by caffeine. "PDB:3EML" [🔗](https://www.rcsb.org/structure/3EML)*
+*Structure of Human A2A Adenosine Receptor bound to ZM241385. It is antagonized by caffeine. "PDB:3EML" [🔗](https://www.rcsb.org/structure/3EML)*
 
 ---
 
