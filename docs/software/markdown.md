@@ -319,7 +319,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
 * Output
 
-<center><div style="height: 450px; width: 100%; position: relative;" class='viewer_3Dmoljs' data-cid='2519' data-backgroundcolor='0xffffff'    data-style='stick:colorscheme=cyanCarbon' data-ui='true'></div></center>
+<center>
+  <div 
+    style="height: 450px; width: 100%; position: relative;" 
+    class='viewer_3Dmoljs' 
+    data-cid='2519' 
+    data-backgroundcolor='rgba(255, 255, 255, 0)' 
+    data-style='stick:colorscheme=cyanCarbon' 
+    data-ui='true'>
+  </div>
+</center>
 
 *Structure of caffeine. "CID:2519" [🔗](https://pubchem.ncbi.nlm.nih.gov/compound/Caffeine)*
 
