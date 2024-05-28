@@ -11,6 +11,32 @@
 
 ## Personal use
 ### Packages
+#### Binom 
+* Uses eight different methods to obtain a confidence interval on the binomial probability.
+* Example: 5 successes out of 100 independent trials with 95% of confidence in the binomial experiment
+* Input 
+
+```R
+library(binom)
+binom.confint(5, 100, conf.level = 0.95, Method = "all")
+```
+
+*  Output
+
+| Method        | Description                             | Successes  | Trials   | Mean       | Lower       | Upper      |
+|---------------|-----------------------------------------|----|-----|------------|-------------|------------|
+| Agresti-Coull | Agresti-Coull method                    | 5  | 100 | 0.05000000 | 0.018676359 | 0.11461779 |
+| Asymptotic    | Using the Central Limit Theorem         | 5  | 100 | 0.05000000 | 0.007283575 | 0.09271642 |
+| Bayes         | Using Bayesian inference                | 5  | 100 | 0.05445545 | 0.015338169 | 0.09900926 |
+| Cloglog       | Using the complementary log parameterization | 5  | 100 | 0.05000000 | 0.018604802 | 0.10514408 |
+| Exact         | Pearson-Klopper method                  | 5  | 100 | 0.05000000 | 0.016431879 | 0.11283491 |
+| Logit         | Using the logistic parameterization     | 5  | 100 | 0.05000000 | 0.020964608 | 0.11454379 |
+| Probit        | Using the probit parameterization       | 5  | 100 | 0.05000000 | 0.019745646 | 0.10922194 |
+| Profile       | Using the profile likelihood            | 5  | 100 | 0.05000000 | 0.018242887 | 0.10439789 |
+| LRT           |                                         | 5  | 100 | 0.05000000 | 0.018250112 | 0.10439673 |
+| Prop.test     |                                         | 5  | 100 | 0.05000000 | 0.018552564 | 0.11829946 |
+| Wilson        | Wilson method                           | 5  | 100 | 0.05000000 | 0.021543679 | 0.11175047 |
+
 
 ### Functions
 #### leave()
@@ -20,7 +46,7 @@
     * objects that contain specified string within their name
 * I just find it easier than writing every object in `rm()`
 
- ```R
+```R
  leave <- function(exclude_strings) {
   # Get all objects in the global environment
   all_objects <- ls(envir = .GlobalEnv)
@@ -33,14 +59,14 @@
   objects_to_remove <- setdiff(all_objects, c(functions, exclude_objects))
   rm(list = objects_to_remove, envir = .GlobalEnv)
 }
- ```
+```
 
 #### plotsave()
 
 * save all objects that are named as `str`+`i` (e.g. plot1, plot_1 or p1) in `path` (path specified folder)
     * the folder will be created if it doesn't exist
 
- ```R
+```R
 plotsave <- function(path, str) {
   for (i in 1:30) {
     tryCatch({
@@ -51,7 +77,7 @@ plotsave <- function(path, str) {
     }}, error = function(e) {})
   }
 }
- ```
+```
 
 #### theme_custom()
 
