@@ -306,38 +306,44 @@ document.addEventListener("DOMContentLoaded", function() {
 * Ideas for the future:
     * synchronised view
 
-### Examples
-#### Example 1 (cortisol) input
+### Demonstration
+#### Example 1: Caffeine
+* input
 
-```markdown
-<center><div style="height: 450px; width: 100%; position: relative;" class='viewer_3Dmoljs' data-cid='5754' data-backgroundcolor='0xffffff' data-style='stick:colorscheme=cyanCarbon' data-ui='true'></div></center>
+```html
+<center><div style="height: 450px; width: 100%; position: relative;" class='viewer_3Dmoljs' data-cid='2519' data-backgroundcolor='0xffffff' data-style='stick:colorscheme=cyanCarbon' data-ui='true'></div></center>
 
 <script src="https://3Dmol.org/build/3Dmol-min.js"></script>     
 <script src="https://3Dmol.org/build/3Dmol.ui-min.js"></script>  
 ```
-#### Example 1 (cortisol) output
 
-<center><div style="height: 450px; width: 100%; position: relative;" class='viewer_3Dmoljs' data-cid='5754' data-backgroundcolor='0xffffff'    data-style='stick:colorscheme=cyanCarbon' data-ui='true'></div></center>
+* Output
+
+<center><div style="height: 450px; width: 100%; position: relative;" class='viewer_3Dmoljs' data-cid='2519' data-backgroundcolor='0xffffff'    data-style='stick:colorscheme=cyanCarbon' data-ui='true'></div></center>
  
-#### Example 2 (CBG) input
+#### Example 2: 
 
-```markdown
-<center><div style="height: 450px; width: 100%; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' data-backgroundcolor='0xffffff'
+*
+
+```html
+<center><div style="height: 450px; width: 100%; position: relative;" class='viewer_3Dmoljs' data-pdb='3EML' data-backgroundcolor='0xffffff'
         data-style='stick:colorscheme=cyanCarbon' data-ui='true'></div></center>
 
-<center><div style="height: 450px; width: 100%; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' data-backgroundcolor='0xffffff'
+<center><div style="height: 450px; width: 100%; position: relative;" class='viewer_3Dmoljs' data-pdb='3EML' data-backgroundcolor='0xffffff'
         data-style='cartoon:color=spectrum' data-surface='opacity:.5'></div></center>
 
 <script src="https://3Dmol.org/build/3Dmol-min.js"></script>     
 <script src="https://3Dmol.org/build/3Dmol.ui-min.js"></script>  
 ```
-#### Example 2 (CBG) output
+*
 
-<center><div style="height: 450px; width: 100%; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' data-backgroundcolor='0xffffff'
+<center><div style="height: 450px; width: 100%; position: relative;" class='viewer_3Dmoljs' data-pdb='3EML' data-backgroundcolor='0xffffff'
         data-style='stick:colorscheme=cyanCarbon' data-ui='true'></div></center>
 
-<center><div style="height: 450px; width: 100%; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' data-backgroundcolor='0xffffff'
+<center><div style="height: 450px; width: 100%; position: relative;" class='viewer_3Dmoljs' data-pdb='3EML' data-backgroundcolor='0xffffff'
         data-style='cartoon:color=spectrum' data-surface='opacity:.5'></div></center>
+
+*Structure Human A2A Adenosine Receptor bound to ZM241385. It is antagonized by caffeine. "PDB:3EML" [🔗](https://www.rcsb.org/structure/3EML)*
 
 ---
 
