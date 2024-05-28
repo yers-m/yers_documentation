@@ -196,76 +196,27 @@ document.addEventListener("DOMContentLoaded", function() {
 ### Linking in Markdown file
 
 * the code used in any markdown file (.md) within Github Pages
+    * change `slideshow_i` with slideshow number for separate slidesshows (e.g. slideshow_1, slideshow_2)
+    * change `slide_i` with path/link to image
+    * change `...` with path to your main GitHub repository 
 
-```markdown
-#### Slideshow 1
-<div class="slideshow-container" id="slideshow1">
-    <!-- Each slide with image and caption -->
+```html
+#### Slideshow i
+<div class="slideshow-container" id="slideshow_i">
     <div class="mySlides">
         <div class="image-container">
-            <img src="https://matt.might.net/articles/phd-school-in-pictures/images/PhDKnowledge.007.jpg" class="zoom">
+            <img src="image_i" class="zoom">
             <div class="caption"></div>
         </div>
     </div>
-    <div class="mySlides">
-        <div class="image-container">
-            <img src="https://matt.might.net/articles/phd-school-in-pictures/images/PhDKnowledge.008.jpg" class="zoom">
-            <div class="caption"></div>
-        </div>
-    </div>
-    <div class="mySlides">
-        <div class="image-container">
-            <img src="https://matt.might.net/articles/phd-school-in-pictures/images/PhDKnowledge.009.jpg" class="zoom">
-            <div class="caption"></div>
-        </div>
-    </div>
-    <div class="mySlides">
-        <div class="image-container">
-            <img src="https://matt.might.net/articles/phd-school-in-pictures/images/PhDKnowledge.010.jpg" class="zoom">
-            <div class="caption"></div>
-        </div>
-    </div>
-    <div class="mySlides">
-        <div class="image-container">
-            <img src="https://matt.might.net/articles/phd-school-in-pictures/images/PhDKnowledge.012.jpg" class="zoom">
-            <div class="caption"></div>
-        </div>
-    </div>
-    <!-- Navigation buttons -->
-    <a class="prev" onclick="plusSlides(-1, 'slideshow1')">❮</a>
-    <a class="next" onclick="plusSlides(1, 'slideshow1')">❯</a>
+    <a class="prev" onclick="plusSlides(-1, 'slideshow_i')">❮</a>
+    <a class="next" onclick="plusSlides(1, 'slideshow_i')">❯</a>
 </div>
 
-*Images were adopted from Matt Might. "The illustrated guide to a Ph.D." [🔗](https://matt.might.net/articles/phd-school-in-pictures/)*
+*Caption for Slideshow*
 
-#### Slideshow 2
-<div class="slideshow-container" id="slideshow2">
-    <!-- Each slide with image and caption -->
-    <div class="mySlides">
-        <div class="image-container">
-            <img src="https://github.com/yers-m/documentation/raw/main/docs/Literature/screenshots/study_design_2014_Charite.png" class="zoom">
-            <div class="caption"></div>
-        </div>
-    </div>
-    <div class="mySlides">
-        <div class="image-container">
-            <img src="https://github.com/yers-m/documentation/raw/main/docs/Literature/screenshots/study_design_2015_Whitaker.png" class="zoom">
-            <div class="caption"></div>
-        </div>
-    </div>
-    <div class="mySlides">
-        <div class="image-container">
-            <img src="https://github.com/yers-m/documentation/raw/main/docs/Literature/screenshots/study_design_2016_Debono.png" class="zoom">
-            <div class="caption"></div>
-        </div>
-    </div>
-    <!-- Navigation buttons -->
-    <a class="prev" onclick="plusSlides(-1, 'slideshow2')">❮</a>
-    <a class="next" onclick="plusSlides(1, 'slideshow2')">❯</a>
-</div>
-
-<link rel="stylesheet" href="https://github.com/yers-m/documentation/raw/main/docs/stylesheets/extra.css">
-<script src="https://github.com/yers-m/documentation/raw/main/docs/javascripts/custom.js"></script>
+<link rel="stylesheet" href=".../docs/stylesheets/extra.css">
+<script src=".../docs/javascripts/custom.js"></script>
 ```
 
 ### Demonstration  
@@ -315,19 +266,19 @@ document.addEventListener("DOMContentLoaded", function() {
     <!-- Each slide with image and caption -->
     <div class="mySlides">
         <div class="image-container">
-            <img src="https://github.com/yers-m/documentation/raw/main/docs/Literature/screenshots/study_design_2014_Charite.png" class="zoom">
+            <img src="http://www.phdcomics.com/comics/archive/phd050399s.gif" class="zoom">
             <div class="caption"></div>
         </div>
     </div>
     <div class="mySlides">
         <div class="image-container">
-            <img src="https://github.com/yers-m/documentation/raw/main/docs/Literature/screenshots/study_design_2015_Whitaker.png" class="zoom">
+            <img src="http://www.phdcomics.com/comics/archive/phd092809s.gif" class="zoom">
             <div class="caption"></div>
         </div>
     </div>
     <div class="mySlides">
         <div class="image-container">
-            <img src="https://github.com/yers-m/documentation/raw/main/docs/Literature/screenshots/study_design_2016_Debono.png" class="zoom">
+            <img src="http://www.phdcomics.com/comics/archive/phd031305s.gif" class="zoom">
             <div class="caption"></div>
         </div>
     </div>
@@ -335,6 +286,8 @@ document.addEventListener("DOMContentLoaded", function() {
     <a class="prev" onclick="plusSlides(-1, 'slideshow2')">❮</a>
     <a class="next" onclick="plusSlides(1, 'slideshow2')">❯</a>
 </div>
+
+*Comics were adopted from Jorge Cham. "The 200 Most Popular Comics" [🔗](https://phdcomics.com/comics/most_popular.php)*
 
 <link rel="stylesheet" href="https://github.com/yers-m/documentation/raw/main/docs/stylesheets/extra.css">
 <script src="https://github.com/yers-m/documentation/raw/main/docs/javascripts/custom.js"></script>
