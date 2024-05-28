@@ -322,6 +322,8 @@ document.addEventListener("DOMContentLoaded", function() {
 * Ideal for embedding in web pages and applications.
 * Open Source [3Dmol.js GitHub webpage](https://github.com/3dmol/3Dmol.js)
 
+* Ideas for the future:
+    * synchronised view
 
 ### Examples
 #### Example 1 (cortisol) input
@@ -334,7 +336,12 @@ document.addEventListener("DOMContentLoaded", function() {
 ```
 #### Example 1 (cortisol) output
 
-<center><div style="height: 450px; width: 100%; position: relative;" class='viewer_3Dmoljs' data-cid='5754' data-backgroundcolor='0xffffff'    data-style='stick:colorscheme=cyanCarbon' data-ui='true'></div></center>
+<center><div    style="height: 450px; width: 100%; position: relative;" 
+                class='viewer_3Dmoljs' 
+                data-cid='5754' 
+                data-backgroundcolor='0xffffff'    
+                data-style='stick:colorscheme=cyanCarbon' 
+                data-ui='true'></div></center>
  
 #### Example 2 (CBG) input
 
@@ -362,64 +369,3 @@ document.addEventListener("DOMContentLoaded", function() {
 <script src="https://3Dmol.org/build/3Dmol.ui-min.js"></script>    
 
 ---
-
-#### Synchronized Viewer
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3Dmol.js Synchronized Viewers</title>
-    <script src="https://3Dmol.org/build/3Dmol-min.js"></script>
-    <script src="https://3Dmol.org/build/3Dmol.ui-min.js"></script>
-    <style>
-        body { display: flex; flex-direction: column; align-items: center; }
-        .viewer-container { margin: 10px; }
-    </style>
-</head>
-<body>
-    <div class="viewer-container">
-        <div id="viewer1" style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs'></div>
-    </div>
-    <div class="viewer-container">
-        <div id="viewer2" style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs'></div>
-    </div>
-    <script>
-        // Create viewers
-        let viewer1 = $3Dmol.createViewer("viewer1", {
-            defaultcolors: $3Dmol.rasmolElementColors
-        });
-        let viewer2 = $3Dmol.createViewer("viewer2", {
-            defaultcolors: $3Dmol.rasmolElementColors
-        });
-        // Load the same PDB file in both viewers
-        viewer1.addModelFromPDB("2V95", "stick", {colorscheme: "cyanCarbon"});
-        viewer2.addModelFromPDB("2V95", "cartoon", {color: "spectrum"});
-        viewer2.addSurface($3Dmol.SurfaceType.VDW, {opacity: 0.5});
-        // Render both viewers
-        viewer1.zoomTo();
-        viewer1.render();
-        viewer2.zoomTo();
-        viewer2.render();
-        // Function to synchronize viewer positions
-        function syncViewers() {
-            let cam1 = viewer1.getView();
-            viewer2.setView(cam1);
-            viewer2.render();
-        }
-        // Set up listeners to synchronize camera movements
-        viewer1.addListener('cameraChanged', syncViewers);
-        // Optionally sync the other way around too
-        function syncViewersReverse() {
-            let cam2 = viewer2.getView();
-            viewer1.setView(cam2);
-            viewer1.render();
-        }
-        viewer2.addListener('cameraChanged', syncViewersReverse);
-        // Initial synchronization
-        syncViewers();
-    </script>
-</body>
-</html>
-
