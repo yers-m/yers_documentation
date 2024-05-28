@@ -339,10 +339,10 @@ document.addEventListener("DOMContentLoaded", function() {
 #### Example 2 (CBG) input
 
 ```markdown
-<center><div style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' data-backgroundcolor='0xffffff'
+<center><div style="height: 450px; width: 100%; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' data-backgroundcolor='0xffffff'
         data-style='stick:colorscheme=cyanCarbon' data-ui='true'></div></center>
 
-<center><div style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' data-backgroundcolor='0xffffff'
+<center><div style="height: 450px; width: 100%; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' data-backgroundcolor='0xffffff'
         data-style='cartoon:color=spectrum' data-surface='opacity:.5'></div></center>
 
 <script src="https://3Dmol.org/build/3Dmol-min.js"></script>     
@@ -350,10 +350,10 @@ document.addEventListener("DOMContentLoaded", function() {
 ```
 #### Example 2 (CBG) output
 
-<center><div style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' data-backgroundcolor='0xffffff'
+<center><div style="height: 450px; width: 100%; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' data-backgroundcolor='0xffffff'
         data-style='stick:colorscheme=cyanCarbon' data-ui='true'></div></center>
 
-<center><div style="height: 450px; width: 800px; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' data-backgroundcolor='0xffffff'
+<center><div style="height: 450px; width: 100%; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' data-backgroundcolor='0xffffff'
         data-style='cartoon:color=spectrum' data-surface='opacity:.5'></div></center>
 
 ---
