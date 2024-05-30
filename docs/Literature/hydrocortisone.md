@@ -80,6 +80,7 @@
 *Metabolic pathway of cortisol. Figures were adapted from [PhD thesis of Johanna Melin](https://refubium.fu-berlin.de/handle/fub188/23620). Created using [diagrams.net](https://app.diagrams.net/)*
 
 ### Elimination      
+* At least 90% of cortisol and cortisone metabolites are normally excreted as sulfate or glucuronide conjugates. Conjugation of cortisol and cortisone can occur at the 21 position, and 3α-reduced steroids can also be conjugated at the 3α position
 * Parameters
     + $CL$
         - dose-dependent CL
