@@ -1,6 +1,7 @@
 # Model Selection and Evaluation
 ## Numerical and statistical evaluation 
-### Objective Function Value - <kbd>**OFV**</kbd>
+### <kbd>**OFV**</kbd>
+* **Objective Function Value**
 * minimising the -2LL
 * lower OFV indicates a better fit
 * likelihood ratio test [[2014_Owen]](https://doi.org/10.1038%2Fpsp.2014.51)
@@ -38,7 +39,8 @@ $$OFV_{ELS} = \sum_{i=1}^{n} \left[ \frac{(y_i - \hat{y}_i)^2}{\text{var}(y_i)} 
 | 10                 | 18.307 | 23.209 | 29.588 |
 
 
-### Akaike Information Criterion - <kbd>**AIC**</kbd>
+### <kbd>**AIC**</kbd>
+* **Akaike Information Criterion**
 * penalties are applied as a function of increased number of parameters
 * [[1974_Akaike]](https://doi.org/10.1007/978-1-4612-1694-0_16) [[2006_Bonate]](https://doi.org/10.1007/b138744) 
     * not nested 
@@ -46,7 +48,8 @@ $$OFV_{ELS} = \sum_{i=1}^{n} \left[ \frac{(y_i - \hat{y}_i)^2}{\text{var}(y_i)} 
 
 $$AIC=OFV+2 \cdot p$$
 
-### Bayesian Information Criterion - <kbd>**BIC**</kbd>
+### <kbd>**BIC**</kbd>
+* **Bayesian Information Criterion**
 * penalties are applied as a function of increased number of parameters [[2014_Delattre]](http://dx.doi.org/10.1214/14-EJS890)
 * [1978_Schwarz](https://doi.org/10.1214/aos/1176344136)
     * not nested 
@@ -67,7 +70,8 @@ $$
 ## Graphical evaluation
 * models can be evaluated by visual examination of data plots [[1992_Mandema]](https://doi.org/10.1007/bf01061469)
 
-### Standard Goodness of Fit - <kbd>**GOF**</kbd>
+### <kbd>**GOF**</kbd>
+* **Standard Goodness of Fit**
 * comparison of the predicted versus the observed concentrations
 * observations should be scattered evenly around the line of identity
 * **CWRES** (conditional weighted residuals)
@@ -81,7 +85,9 @@ $$
 * CWRES vs. time
     * identification of time-dependencies
     * specification appears in the absorption or the elimination phase.
-### Visual Predictive Check  - <kbd>**VPC**</kbd>
+
+### <kbd>**VPC**</kbd>
+* **Visual Predictive Check**
 * model diagnostics [[2008_Karlsson]](https://www.page-meeting.org/?abstract=1434)
     * constructing simulated data using the developed model and 
     * comparing it with the existing dataset 

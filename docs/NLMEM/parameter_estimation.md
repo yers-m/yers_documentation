@@ -21,9 +21,12 @@
 * Taylor series approximations for numerical solution of the likelihood function
 * 
 
-### First-Order Conditional Estimation algorithm - <kbd>**FOCE**</kbd>
+### <kbd>**FOCE**</kbd>
+* **First-Order Conditional Estimation algorithm**
 * linearised by conditioning on the individual etas [[2014_Owen]](https://doi.org/10.1038%2Fpsp.2014.51) [[2014_Johansson]](https://doi.org/10.1007/s10928-014-9359-z)
-### FOCE with interaction - <kbd>**FOCEI**</kbd>
+
+### <kbd>**FOCEI**</kbd>
+* **First-Order Conditional Estimation algorithm with interaction**
 * considering the interaction between ε and η [[2014_Owen]](https://doi.org/10.1038%2Fpsp.2014.51)
 
 ### <kbd>**LAPLACE**</kbd>
@@ -34,14 +37,16 @@
 * can be used to consider observations below LLOQ
 * more unstable than e.g. FOCE
 
-### Stochastic Approximation Expectation Maximisation - <kbd>**SAEM**</kbd>
+### <kbd>**SAEM**</kbd>
+* **Stochastic Approximation Expectation Maximisation**
 * [[2007_Bauer]](https://doi.org/10.1208/aapsj0901007)
 * step E: stochastic approximation
 * step M: maximises the expected likelihood
 * includes one burn-in and one accumulation phase [[2009_Beal]](https://www.semanticscholar.org/paper/NONMEM-User%E2%80%99s-Guides.-(1989%E2%80%932009)-Beal-Boeckmann/1964357daa9975ac959840262a810b2e0b39c8f4)
     * burn-in: approximation is done on few samples per individual, and maximised and the process is repeated until the estimates have stabilised
     * accumulation: the individual random-effects are sampled and averaged together
-### IMPortance sampling - <kbd>**IMP**</kbd>
+### <kbd>**IMP**</kbd>
+* **IMPortance sampling**
 * [[2007_Bauer]](https://doi.org/10.1208/aapsj0901007)
     * step E: Monte-Carlo integration to assess the conditional mean and variance of $η_i$
     * step M: maximises the expected likelihood

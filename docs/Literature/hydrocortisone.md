@@ -119,7 +119,7 @@
 * analysis in adults with a NCA by [[2015_Whitaker]](https://doi.org/10.1210/jc.2014-4060)
     * does not account for known nonlinearities of cortisol
 
-### Licensed oral Hydrocortisone tablet
+### Licensed Hydrocortisone tablet
 * <u>Auden Mackenzie Ltd</u>
 * oral (po)
 

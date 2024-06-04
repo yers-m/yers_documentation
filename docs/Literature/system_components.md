@@ -32,7 +32,8 @@
 
 ---
 
-## Corticosteroid-Binding Globulin - <kbd>**CBG**</kbd>
+## <kbd>**CBG**</kbd>
+* Corticosteroid-Binding Globulin
 * low conc. relative to albumin
     + albumin: 35,000-50,000 mg/L [[1992_Peters]](https://books.google.com.sg/books?hl=en&lr=&id=i1DC3KlTAB8C&oi=fnd&pg=PP2&dq=T.+Peters+Jr.+All+about+Albumin:+Biochemistry,+Genetics,+and+Medical+Applications.+Academic+Press,+Oxford,+UK+(1996).&ots=WZBgiT1oad&sig=t6YtiXhHhbZKB0gaotMGeXZDHmo#v=onepage&q&f=false)
     + CBG: 14.9-67.1 mg/L [[2003_Lewis]](https://doi.org/10.1016/s0009-8981(02)00417-5)
@@ -62,9 +63,12 @@
         data-style='cartoon:color=spectrum' data-surface='opacity:.5'></div></center>
 
 *CBG Structure was created by 3Dmol.js tool.*
+
 ---
 
-## 17-hydroxyprogesterone - <kbd>**17-OHP**</kbd>
+
+## <kbd>**17-OHP**</kbd>
+* 17-hydroxyprogesterone
 * seems to have a circadian variation (>12 months) [[2003_Groschl]](https://doi.org/10.1373/49.10.1688)
 * conc. range of 12-36 nmol/L -> target for therapy [[2005_Merke]](https://doi.org/10.1016/s0140-6736(05)66736-0)
     + note: when measured in the early morning before medication

@@ -31,7 +31,8 @@ $$y_{ij}=f(𝜙_{i},  x_{ij})$$
 * describes the variability, which can be subdivided into IIV and RUV models [[1993_Karlsson]](https://doi.org/10.1007/bf01113502) [[2013_Mould]](https://doi.org/10.1038/psp.2013.14)
 * several hierarchical levels of pharmacostatistical models
 
-### InterIndividual Variability - <kbd>**IIV**</kbd>
+### <kbd>**IIV**</kbd>
+* **InterIndividual Variability**
 * difference between individuals
 * allows for the individual parameter estimate to differ from the population estimate
 * $𝜂_i$
@@ -58,7 +59,8 @@ $$𝜙_{i}=g(𝜃,  z_{i}) \cdot e^{𝜂_i}$$
 > $θ$ - population parameter estimates;<br>
 > $z_{i}$ - covariates.
 
-### InterOccasion Variability - <kbd>**IOV**</kbd>
+### <kbd>**IOV**</kbd>
+* **InterOccasion Variability**
 * variability between different occasions
 * depends on study design (different doses/days/study periods...)
 * does not describe the reason for the variability between occasions
@@ -69,7 +71,8 @@ $$𝜙_{i}=g(𝜃,  z_{i}) \cdot e^{𝜂_i}$$
 
 $$𝜙_{i}=g(𝜃,  z_{i}) \cdot e^{𝜂_i+k_i}$$
 
-### Residual Unexplained Variability - <kbd>**RUV**</kbd>
+### <kbd>**RUV**</kbd>
+* **Residual Unexplained Variability**
 * to explain the difference between model-predicted values and observations in the form of distribution variance [[2007_Fisher]](https://www.scribd.com/document/319808093/Shafer-Nonmem-2) [[2013_Mould]](https://doi.org/10.1038/psp.2013.14)
 * unexplained variability
     + e.g. resulted by measurement error, model misspecification and errors in dosing
