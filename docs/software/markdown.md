@@ -313,7 +313,7 @@ document.addEventListener("DOMContentLoaded", function() {
 ```html
 <center>
   <div 
-    style="height: 450px; width: 100%; position: relative;" 
+    style="height: 450px; width: 90%; position: relative;" 
     class='viewer_3Dmoljs' 
     data-cid='2519' 
     data-backgroundcolor='0xffffff' 
@@ -330,7 +330,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 <center>
   <div 
-    style="height: 450px; width: 100%; position: relative;" 
+    style="height: 450px; width: 90%; position: relative;" 
     class='viewer_3Dmoljs' 
     data-cid='2519' 
     data-backgroundcolor='0xffffff' 
@@ -348,18 +348,17 @@ document.addEventListener("DOMContentLoaded", function() {
 ```html
 <center>
   <div 
-    style="height: 450px; width: 100%; position: relative;" 
+    style="height: 450px; width: 90%; position: relative;" 
     class='viewer_3Dmoljs' 
     data-pdb='3EML' 
     data-backgroundcolor='0xffffff' 
-    data-style='stick:colorscheme=cyanCarbon' 
-    data-ui='true'>
+    data-style='stick:colorscheme=cyanCarbon'>
   </div>
 </center>
 
 <center>
   <div 
-    style="height: 450px; width: 100%; position: relative;" 
+    style="height: 450px; width: 90%; position: relative;" 
     class='viewer_3Dmoljs' 
     data-pdb='3EML' 
     data-backgroundcolor='0xffffff' 
@@ -375,18 +374,17 @@ document.addEventListener("DOMContentLoaded", function() {
 
 <center>
   <div 
-    style="height: 450px; width: 100%; position: relative;" 
+    style="height: 450px; width: 90%; position: relative;" 
     class='viewer_3Dmoljs' 
     data-pdb='3EML' 
     data-backgroundcolor='0xffffff' 
-    data-style='stick:colorscheme=cyanCarbon' 
-    data-ui='true'>
+    data-style='stick:colorscheme=cyanCarbon'>
   </div>
 </center>
 
 <center>
   <div 
-    style="height: 450px; width: 100%; position: relative;" 
+    style="height: 450px; width: 90%; position: relative;" 
     class='viewer_3Dmoljs' 
     data-pdb='3EML' 
     data-backgroundcolor='0xffffff' 
@@ -404,7 +402,7 @@ document.addEventListener("DOMContentLoaded", function() {
 ```html
 <center>
   <div 
-    style="height: 450px; width: 100%; position: relative;" 
+    style="height: 450px; width: 90%; position: relative;" 
     class='viewer_3Dmoljs' 
     data-pdb='6J5T' 
     data-backgroundcolor='0xffffff'
@@ -423,7 +421,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 <center>
   <div 
-    style="height: 450px; width: 100%; position: relative;" 
+    style="height: 450px; width: 90%; position: relative;" 
     class='viewer_3Dmoljs' 
     data-pdb='6J5T' 
     data-backgroundcolor='0xffffff'
