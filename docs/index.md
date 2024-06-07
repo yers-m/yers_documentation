@@ -9,7 +9,7 @@ Hello! My name is Yersultan. Welcome to my documentation page for my PhD project
 This documentation serves multiple purposes:
 
 - **To document current knowledge of my projects**
-    - by reviewing articles and making notes publicly available information.
+    - by reviewing articles and making notes from publicly available information.
 - **To detail the technical aspects of my work**,
     - by including pipelines for data curation and data processing.
     - by including code snippets, libraries, and frameworks essential to my work
@@ -24,11 +24,10 @@ This documentation serves multiple purposes:
 - **Literature review**
 - **My notes about NLMEM**
 - **Programming and Tools:** 
-- **Challenges and Solutions:** 
 
 ## Who can use this?
 
-Whether you're a fellow researcher, a new team member, or just curious about pharmacometrics, this documentation is designed to provide you with a clear understanding of my work. Dive into the sections that interest you
+Whether you're a fellow researcher, a new team member, or just curious about pharmacometrics, this documentation is designed to provide you with a clear understanding of my work.
 
 Feel free to reach out if you have questions or would like to discuss. You can find me here 
 

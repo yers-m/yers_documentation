@@ -13,17 +13,17 @@
 
 ![Cortisol structure created in Python by the py3Dmol tool](./figures/py3Dmol_cortisol.png)
 
-*Cortisol structure was created by py3Dmol tool.*
+*Chemical structure of Cortisol. Created using py3Dmol tool.*
 
-<center><div style="height: 450px; width: 90%; position: relative;" class='viewer_3Dmoljs' data-cid='5754' data-backgroundcolor='0xffffff' data-style='stick:colorscheme=cyanCarbon'></div></center>
+<center><div style="height: 450px; width: 85%; position: relative;" class='viewer_3Dmoljs' data-cid='5754' data-backgroundcolor='0xffffff' data-style='stick:colorscheme=cyanCarbon'></div></center>
 
-*Cortisol structure was created by 3Dmol.js tool.*
+*Interactive chemical structure of Cortisol. Created using 3Dmol.js tool.*
 
 * a negative feedback on CRH and ACTH release, thereby inhibiting the HPA axis [[2002_Tsigos]](https://doi.org/10.1016/s0022-3999(02)00429-4)
 * saturable plasma protein binding of cortisol occurring at high cortisol concentrations [[1981_Toothaker]](https://doi.org/10.1007/bf01062332)
 * maturation factors
     + amount of body water
-        - 80-90% in young infants
+        - 80-85% in young infants
         - 55-60% in adults
     + fat content
         - 10-15% at birth
@@ -33,7 +33,7 @@
 ---
 
 ## <kbd>**CBG**</kbd>
-* Corticosteroid-Binding Globulin
+* **Corticosteroid-Binding Globulin**
 * low conc. relative to albumin
     + albumin: 35,000-50,000 mg/L [[1992_Peters]](https://books.google.com.sg/books?hl=en&lr=&id=i1DC3KlTAB8C&oi=fnd&pg=PP2&dq=T.+Peters+Jr.+All+about+Albumin:+Biochemistry,+Genetics,+and+Medical+Applications.+Academic+Press,+Oxford,+UK+(1996).&ots=WZBgiT1oad&sig=t6YtiXhHhbZKB0gaotMGeXZDHmo#v=onepage&q&f=false)
     + CBG: 14.9-67.1 mg/L [[2003_Lewis]](https://doi.org/10.1016/s0009-8981(02)00417-5)
@@ -54,42 +54,62 @@
 
 ![CBG Structure created by py3Dmol tool](./figures/py3Dmol_CBG.png)
 
-*CBG Structure was created by  py3Dmol tool.*
 
-<center><div style="height: 450px; width: 90%; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' data-backgroundcolor='0xffffff'
+*Chemical structure of CBG. Created using py3Dmol tool.*
+
+<center><div style="height: 450px; width: 85%; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' data-backgroundcolor='0xffffff'
         data-style='stick:colorscheme=cyanCarbon'></div></center>
 
-<center><div style="height: 450px; width: 90%; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' data-backgroundcolor='0xffffff'
+<center><div style="height: 450px; width: 85%; position: relative;" class='viewer_3Dmoljs' data-pdb='2V95' data-backgroundcolor='0xffffff'
         data-style='cartoon:color=spectrum' data-surface='opacity:.5'></div></center>
 
-*CBG Structure was created by 3Dmol.js tool.*
+*Interactive chemical structure of CBG. Created using 3Dmol.js tool.*
 
 ---
 
 
 ## <kbd>**17-OHP**</kbd>
-* 17-hydroxyprogesterone
+* **17-hydroxyprogesterone** or **17-OH-Progesterone**
+* used as biomarker of CAH
 * seems to have a circadian variation (>12 months) [[2003_Groschl]](https://doi.org/10.1373/49.10.1688)
 * conc. range of 12-36 nmol/L -> target for therapy [[2005_Merke]](https://doi.org/10.1016/s0140-6736(05)66736-0)
     + note: when measured in the early morning before medication
 
 ![17-OHP Structure created by py3Dmol tool](./figures/py3Dmol_17-OHP.png)
 
-*17-OHP Structure was created by the py3Dmol tool.*
+*Chemical structure of 17-OHP. Created using py3Dmol tool.*
 
-<center><div style="height: 450px; width: 90%; position: relative;" class='viewer_3Dmoljs' data-cid='6238' data-backgroundcolor='0xffffff' data-style='stick:colorscheme=cyanCarbon'></div></center>
+<center><div style="height: 450px; width: 85%; position: relative;" class='viewer_3Dmoljs' data-cid='6238' data-backgroundcolor='0xffffff' data-style='stick:colorscheme=cyanCarbon'></div></center>
 
-*17-OHP structure was created by 3Dmol.js tool.*
+*Interactive chemical structure of 17-OHP. Created using 3Dmol.js tool.*
 
 ---
 
-## ACTH
+## <kbd>**ACTH**</kbd>
+* **AdrenoCorticoTrophic Hormone**
 * [[link]](https://pubchem.ncbi.nlm.nih.gov/compound/Corticotropin)
-
+* Increased production in CAH 
+    * due to 
+        * feedback loop from decreased cortisol production
+        * aldosterone insufficiency -> volume depletion -> vasopressin synthesis [[2000_Arvat]](https://doi.org/10.1530/eje.0.1430099)
+    * leads to [[2020_Merke]](https://doi.org/10.1056/nejmra1909786)
+        * adrenocortical hyperplasia as well as the 
+        * synthesis of adrenal androgens and androgen precursors, 
+        * synthesis of 17-OHP and androstenedione
 ---
 
-## Hypothalamic-Pituitary-Axis
-* The HPA-axis has a **circadian rhythm**
+## <kbd>**HPA-axis**</kbd>
+* **Hypothalamic-Pituitary-Axis**
+* follow a **circadian rhythm**
+* Cortisol is inhibits the HPA axis
+    * major glucocorticoid and 
+    * negative feedback on CRH and ACTH release
+* Classic CAH
+    * absence of negative feedback
+    * increased production of corticotropin-releasing factor (CRF) in hypothalamus
+    * increased production of adrenocorticotrophic hormone (ACTH) in pituitary gland
+    * main reason for overproduction of androgens
+
 
 ---
 

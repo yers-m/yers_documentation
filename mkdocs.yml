@@ -61,7 +61,7 @@ theme:
 # Navigation Structure
 nav:
   - Home: index.md
-  - Literature Review HCP:
+  - HCP - Literature Review:
     - Literature/index.md
     - Literature/CAH.md
     - Literature/system_components.md
