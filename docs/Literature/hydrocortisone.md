@@ -6,7 +6,7 @@
 * lack of licensed formulation for this population (for <6yo)
 * Dose
     + still growing children: 8 mg/m$^2$/day divided in 3-4 doses [[2016_Bornstein]](https://doi.org/10.1210/jc.2015-1710)
-    + more specific:  10-15 mg/m$^2$ · d divided into 3 doses [[2010_Speiser]](https://doi.org/10.1210/jc.2009-2631)
+    + more specific:  10-15 mg/m$^2$/day divided into 3 doses [[2010_Speiser]](https://doi.org/10.1210/jc.2009-2631)
     + recommended daily dose to adult patients with adrenal insufficiency [[2016_Bornstein]](https://doi.org/10.1210/jc.2015-1710)
         + at 06:00 10 mg
         + at 14:00 5 mg
@@ -112,12 +112,22 @@
 ---
 
 ## Formulations and Administration 
+* Lowest available dose for a oral tablet
+    * 5  mg in USA
+    * 10 mg in Europe or Canada
 ### Infacort ®
 * <u>Diurnal Ltd</u>
+* immediate-release hydrocortisone
+* Brand name: Alkindi (with four doses: 0.5 mg, 1 mg, 2 mg and 5 mg)
+* Approval for children with adrenal insufficiency from regulatory agencies [[2018_Neumann]](https://doi.org/10.1111/cen.13447)
+    * EMA - 2018
+    * FDA - 2020
 * oral (po)
 * hydrocortisone granules with taste masking
+    * dry granules or mixed with a small amount of soft food
 * analysis in adults with a NCA by [[2015_Whitaker]](https://doi.org/10.1210/jc.2014-4060)
     * does not account for known nonlinearities of cortisol
+* good disease control with normal growth and no increased risk of adrenal crises [[2021_Neumann]](https://doi.org/10.1210/clinem/dgaa626)
 
 ### Licensed Hydrocortisone tablet
 * <u>Auden Mackenzie Ltd</u>
@@ -126,6 +136,11 @@
 ### Hydrocortisone Succinate
 * intravenous (iv) bolus 
 * HC administration
+
+### Hydrocortisone cypionate suspension
+* Pharmacia & UpJohn
+* voluntarily recalled in July 2000 [[2001_Merke]](https://doi.org/10.1210/jcem.86.1.7275)
+* possible inaccuracies in preparations can lead to unanticipated adverse effects [[2018_Barillas]](https://doi.org/10.1210/jc.2017-01595)
 
 ---
 

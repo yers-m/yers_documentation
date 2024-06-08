@@ -43,8 +43,37 @@
 
 *Figure from [2003_Speiser](https://doi.org/10.1210/jc.2018-01865).*
 
-## Treatments
-* 
+## Available treatment approaches
+*  management of CAH should account for biological effects and interrelationship between glucocorticoid, mineralocorticoid and adrenal steroids
+### Glucocorticoid therapy
+* re-set hormonal imbalance by replacing deficient hormones
+* fail to replicate the <u>physiological cortisol circadian rhythm</u>
+* usually supraphysiological doses to achieve sufficient reduction in androgen biosynthesis
+* formulations
+    * short-acting: Hydrocortisone
+        * 6–8 h 
+        * preferred in children with CAH: short half-life and the lowest growth suppressing effect [[2018_Speiser]](https://doi.org/10.1210/jc.2018-01865) [[2007_Bonfig]](https://doi.org/10.1210/jc.2006-2109)
+    * intermediate-acting: Prednisone, Prednisolone, Methylprednisolone
+        * 12–36 h 
+    * long-acting: Dexamethasone
+        * 36–54 h 
+* 1/3 of adults receive hydrocortisone and 2/3 long-acting glucocorticoids
+    * UK cross-sectional CAH adult study (CaHASE) from 17 centres (n = 203) [[2010_Artl]](https://doi.org/10.1210/jc.2010-0917)
+    * cross-sectional study from our USA centre (n = 244) [[2012_Finkielstain]](https://doi.org/10.1210/jc.2012-2102)
+
+### Mineralocorticoid therapy
+* to correct aldosterone deficiency
+* small enzyme activity and aldosterone production is not sufficient to maintain normal intravascular volume [[2001_Frisch]](https://doi.org/10.1515/jpem.2001.14.9.1649) [[2006_Nimkarn]](https://doi.org/10.1210/jc.2006-0964)
+* therapy received during childhood ~> <u>a taller height</u> outcome compared when not received [[2010_Muthusamy]](https://doi.org/10.1210/jc.2009-2616)
+* formulation
+    * 9α-fludrocortisone
+        * 18–36 h
+        * risk factor of hypertension in children aged <8 years [[2015_Bonfig]](https://doi.org/10.1093/ajh/hpv087) [[2021_Torky]](https://doi.org/10.1210/clinem/dgab133)
+        * adolescents have reduced (18.5% -> 4.9%) risk of hypertension 
+    * All glucocorticoids (except dexamethasone) have mineralocorticoid activity
+        * potency of 0.1 mg of fludrocortisone is achieved by ~40 mg of hydrocortisone [[1955_Thorn]](https://doi.org/10.7326/0003-4819-43-5-979)
+        * potency of 1.0 mg of hydrocortisone is achieved by 0.1 mg of fludrocortisone [[2013_Liu]](https://doi.org/10.1186/1710-1492-9-30)
+
 
 List if works used for literature review
 - [[2022_Mallappa]](https://doi.org/10.1038/)
