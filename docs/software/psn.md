@@ -9,6 +9,8 @@
 ## Installation in MacBook
 * the material is based on documentation from [PsN webpage](https://uupharmacometrics.github.io/PsN/install.html)
 * It worked with my MacBook (M3) with macOS Sonoma 14.5
+* You'll need:
+    * working NONMEM 
 
 ### Check for required software
 ```sh
@@ -22,8 +24,8 @@ export PATH=/opt/homebrew/bin:$PATH
 export HOMEBREW_PREFIX=/opt/homebrew
 ## Open the .zshrc file for editing
 nano ~/.zshrc 
-    ## add this in the file, save changes and exit `⌃ + O, ⌃ + X`.
-    export PATH="/opt/homebrew/bin:$PATH"
+        ## add this in the file, save changes and exit `⌃ + O, ⌃ + X`.
+        export PATH="/opt/homebrew/bin:$PATH"
 ## Apply the changes made to .zshrc
 source ~/.zshrc  
 
@@ -97,10 +99,10 @@ sudo perl setup.pl
 ## in my case it was in `/Library/Perl/5.34/PsN_5_3_1`
 sudo find / -name "psn.conf" 2>/dev/null 
 ## Verify the content of  PsN configuration file
-    [nm_versions]
-    default=/opt/NONMEM/nm751,7.5
-    nm751=/opt/NONMEM/nm751,7.5
-    nonmem_nm751=/opt/nonmem/nm751,7.5
+        [nm_versions]
+        default=/opt/NONMEM/nm751,7.5
+        nm751=/opt/NONMEM/nm751,7.5
+        nonmem_nm751=/opt/nonmem/nm751,7.5
 ## Display help information for PsN
 psn -help
 ```
@@ -110,7 +112,7 @@ psn -help
 
 ```sh
 # Change ownership of Homebrew directory to the current user
-sudo chown -R $USERNAME /opt/homebrew
+sudo chown -R {YOUR USERNAME} /opt/homebrew
 # Update Homebrew to the latest version
 brew update
 # Upgrade all outdated Homebrew packages

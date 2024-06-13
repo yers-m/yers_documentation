@@ -76,6 +76,7 @@ nav:
     - NLMEM/evaluation.md
   - Software:
     - software/index.md
+    - software/nonmem.md
     - software/psn.md
     - software/pirana.md
     - software/r_studio.md

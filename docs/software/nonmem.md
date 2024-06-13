@@ -4,6 +4,9 @@
 ## Installation in macOS
 * the material is based on readme_751_MACOSX.txt file from [NONMEM webpage](https://nonmem.iconplc.com/#/nonmem751)
 * It worked with my MacBook (M3) with macOS Sonoma 14.5
+* You'll need:
+    * password to open zip file
+    * licence file
 
 ### Command Line Tools
 * Install newest Command Line Tools in Mac OS 
@@ -22,8 +25,8 @@ xcode-select --install
 # add `/opt/homebrew/bin` (or your homebrew path) to your PATH
 ## for .zsh. (if you use bash, `nano ~/.bash_profile`)
 nano ~/.zshrc
-## add this in the file, save changes and exit `⌃ + O, ⌃ + X`.
-export PATH="/opt/homebrew/bin:$PATH"
+		## add this in the file, save changes and exit `⌃ + O, ⌃ + X`.
+		export PATH="/opt/homebrew/bin:$PATH"
 ## apply the changes. (if you use bash, `source ~/.bash_profile`)
 source ~/.zshrc
 ## verify changes (homebrew path should be in listed paths)
@@ -57,29 +60,29 @@ cd ~/Compiler/test
 # Create the Fortran Source File
 ## create and open file
 nano hello.f90
-## add this in the file, save changes and exit `⌃ + O, ⌃ + X`.
-program hello
-    print *, 'Hello, NONMEM World!'
-end program hello
+		## add this in the file, save changes and exit `⌃ + O, ⌃ + X`.
+		program hello
+			print *, 'Hello, NONMEM World!'
+		end program hello
 
 # Create the Makefile
 ## create and open file
 nano Makefile
-## add this in the file, save changes and exit `⌃ + O, ⌃ + X`.
-FC = gfortran
-FFLAGS = -O2
-TARGET = hello
+		## add this in the file, save changes and exit `⌃ + O, ⌃ + X`.
+		FC = gfortran
+		FFLAGS = -O2
+		TARGET = hello
 
-all: $(TARGET)
+		all: $(TARGET)
 
-$(TARGET): $(TARGET).o
-	$(FC) $(FFLAGS) -o $(TARGET) $(TARGET).o
+		$(TARGET): $(TARGET).o
+			$(FC) $(FFLAGS) -o $(TARGET) $(TARGET).o
 
-$(TARGET).o: $(TARGET).f90
-	$(FC) $(FFLAGS) -c $(TARGET).f90
+		$(TARGET).o: $(TARGET).f90
+			$(FC) $(FFLAGS) -c $(TARGET).f90
 
-clean:
-	rm -f $(TARGET) $(TARGET).o
+		clean:
+			rm -f $(TARGET) $(TARGET).o
 
 # Run the Make Commands
 make clean
